@@ -10,7 +10,7 @@ const CRON_SECRET = process.env.CRON_SECRET;
 const POST_HOURS = [8, 10.5, 12.5, 15, 17.5, 20];
 
 async function scheduleToBuffer(text: string, link: string, scheduledAt: Date) {
-  const fullText = `${text}\n\n👉 ${link}`;
+  const fullText = `🎵 ${link}\n\n${text}`;
   const escapedText = fullText.replace(/\\/g, '\\\\').replace(/"/g, '\\"').replace(/\n/g, '\\n');
 
   const query = `
