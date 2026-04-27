@@ -1,4 +1,4 @@
-export const S = 'https://songgift.vercel.app';
+export const S = 'https://songgift.app';
 
 export interface Post {
   text: string;
