@@ -7,19 +7,6 @@ export const metadata: Metadata = {
   description: "Listen to sample songs we've created and hear from a real customer. See what SongGift can do for you.",
 };
 
-const sampleSongs = [
-  { song: 'Breathe Again, Kiddo', occasion: 'Wedding Song', color: 'bg-purple-500' },
-  { song: 'Breathe Again', occasion: 'Memorial Tribute', color: 'bg-green-500' },
-  { song: 'Chaves no Bolso', occasion: 'Birthday Song', color: 'bg-yellow-500' },
-  { song: 'Chili on the Floor', occasion: 'Graduation Song', color: 'bg-pink-500' },
-  { song: 'Coffee Shop Celebrations', occasion: 'Love Song', color: 'bg-indigo-500' },
-  { song: 'Dieciséis en el Horizonte', occasion: 'Quinceañera Song', color: 'bg-red-500' },
-  { song: 'Eighteen Years of You', occasion: 'Anniversary Song', color: 'bg-teal-500' },
-  { song: 'En Casa, Mi Vida', occasion: 'Family Song', color: 'bg-orange-500' },
-  { song: 'Five Candles at Sunset', occasion: 'New Baby Song', color: 'bg-cyan-500' },
-  { song: 'Five Candles, Kiddo', occasion: 'Friendship Song', color: 'bg-violet-500' },
-  { song: 'Front Porch Promise', occasion: 'Retirement Song', color: 'bg-emerald-500' },
-];
 
 const relatedLinks = [
   { href: '/create', title: 'Create Your Song', description: 'Start creating your personalized song gift with our step-by-step process' },
@@ -65,35 +52,21 @@ export default function ReviewsPage() {
         </div>
       </section>
 
-      {/* Sample Songs */}
+      {/* Listen to Real Songs */}
       <section className="py-16 sm:py-24 bg-bg-light">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-2xl sm:text-3xl font-bold text-text-dark text-center mb-4" style={{ fontFamily: 'var(--font-serif)' }}>
-            Sample Songs We&apos;ve Created
+        <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <h2 className="text-2xl sm:text-3xl font-bold text-text-dark mb-4" style={{ fontFamily: 'var(--font-serif)' }}>
+            Listen to Songs We&apos;ve Created
           </h2>
-          <p className="text-text-muted text-center mb-12 max-w-2xl mx-auto">Every song is unique and tailored to each customer&apos;s story. Here are some examples of our work across different occasions and genres.</p>
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {sampleSongs.map((sample, i) => (
-              <div key={i} className="bg-white rounded-2xl p-5 border border-gray-100 shadow-sm">
-                <div className="flex items-center gap-2 mb-3">
-                  <button className="w-8 h-8 bg-accent rounded-full flex items-center justify-center flex-shrink-0 hover:bg-accent-hover transition-colors" aria-label="Play">
-                    <svg width="12" height="12" viewBox="0 0 12 12" fill="white"><polygon points="2,0 12,6 2,12" /></svg>
-                  </button>
-                  <span className="text-sm font-semibold text-text-dark">{sample.song}</span>
-                </div>
-                <div className="mb-3">
-                  <div className="h-1 bg-gray-100 rounded-full"><div className="h-1 bg-accent-light rounded-full w-0" /></div>
-                  <div className="flex justify-between text-[10px] text-text-muted mt-1"><span>0:00</span><span>0:00</span></div>
-                </div>
-                <p className="text-xs text-text-muted">{sample.occasion}</p>
-              </div>
-            ))}
-          </div>
-          <div className="text-center mt-8">
-            <Link href="/playlist" className="inline-flex items-center gap-2 text-accent font-semibold hover:text-accent-hover transition-colors">
-              Listen to the full playlist →
-            </Link>
-          </div>
+          <p className="text-text-muted text-lg mb-8 max-w-2xl mx-auto">
+            Every song is unique and tailored to each customer&apos;s story. Listen to real songs we&apos;ve made for real people.
+          </p>
+          <Link
+            href="/playlist"
+            className="inline-flex items-center px-8 py-3.5 bg-accent text-white font-semibold rounded-full hover:bg-accent-hover transition-colors text-base"
+          >
+            Listen to Our Playlist →
+          </Link>
         </div>
       </section>
 
