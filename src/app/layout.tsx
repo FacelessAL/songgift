@@ -12,6 +12,10 @@ const cormorant = Cormorant_Garamond({ subsets: ['latin'], weight: ['400', '500'
 export const metadata: Metadata = {
   title: 'Custom Song Gift | SongGift',
   description: 'Turn your love story into a personalized song gift. We create unique songs from your memories in just days.',
+  icons: {
+    icon: '/icon.png',
+    apple: '/apple-icon.png',
+  },
   openGraph: {
     title: 'Custom Song Gift | SongGift',
     description: 'Turn your love story into a personalized song gift. We create unique songs from your memories in just days.',
@@ -20,7 +24,7 @@ export const metadata: Metadata = {
     type: 'website',
     images: [
       {
-        url: 'https://songgift.vercel.app/og-image.png',
+        url: 'https://www.songgift.app/og-image.png',
         width: 1200,
         height: 630,
         alt: 'SongGift — Custom Personalized Songs',
@@ -31,7 +35,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Custom Song Gift | SongGift',
     description: 'Turn your love story into a personalized song gift. We create unique songs from your memories in just days.',
-    images: ['https://songgift.vercel.app/og-image.png'],
+    images: ['https://www.songgift.app/og-image.png'],
   },
 };
 
