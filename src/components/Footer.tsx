@@ -9,7 +9,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-10">
           {/* Brand */}
           <div className="md:col-span-1">
-            <Image src="/songgift-logo.png" alt="SongGift" width={120} height={40} className="h-9 w-auto brightness-0 invert mb-4" />
+            <Link href="/"><Image src="/songgift-logo.png" alt="SongGift" width={120} height={40} className="h-9 w-auto brightness-0 invert mb-4" /></Link>
             <p className="text-sm text-gray-300 leading-relaxed mb-6">
               Turn your memories into personalized songs. We create custom music that captures your most precious moments.
             </p>

@@ -103,7 +103,7 @@ export default function PrivacyPolicyPage() {
                 <p className="text-text-muted leading-relaxed text-sm">Depending on your jurisdiction, you may have the right to: <strong className="text-text-dark">access</strong> the personal data we hold about you; <strong className="text-text-dark">correct</strong> inaccurate or incomplete data; <strong className="text-text-dark">delete</strong> your personal data (&quot;right to be forgotten&quot;); <strong className="text-text-dark">restrict</strong> or object to processing of your data; <strong className="text-text-dark">data portability</strong> — receive your data in a structured, commonly used format; and <strong className="text-text-dark">withdraw consent</strong> for marketing communications at any time.</p>
                 <p className="text-text-muted leading-relaxed text-sm"><strong className="text-text-dark">California Residents (CCPA):</strong> You have the right to know what personal information we collect, request deletion, and opt out of the sale of personal information (we do not sell your data). You will not receive discriminatory treatment for exercising these rights.</p>
                 <p className="text-text-muted leading-relaxed text-sm"><strong className="text-text-dark">EU/EEA Residents (GDPR):</strong> You have all the rights listed above plus the right to lodge a complaint with your local data protection authority.</p>
-                <p className="text-text-muted leading-relaxed text-sm">To exercise any of these rights, email us at <a href="mailto:privacy@songgift.app" className="text-accent hover:text-accent-hover font-semibold">privacy@songgift.app</a>. We will respond within 30 days.</p>
+                <p className="text-text-muted leading-relaxed text-sm">To exercise any of these rights, email us at <a href="mailto:support@songgift.app" className="text-accent hover:text-accent-hover font-semibold">support@songgift.app</a>. We will respond within 30 days.</p>
               </div>
             </div>
 
@@ -153,9 +153,9 @@ export default function PrivacyPolicyPage() {
             <h3 className="font-bold text-text-dark text-lg mb-2">Questions About Your Privacy?</h3>
             <p className="text-sm text-text-muted mb-4">We&apos;re happy to answer any questions about how we handle your data.</p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-              <a href="mailto:privacy@songgift.app" className="inline-flex items-center gap-2 px-6 py-2.5 bg-accent text-white font-semibold rounded-full hover:bg-accent-hover transition-colors text-sm">
+              <a href="mailto:support@songgift.app" className="inline-flex items-center gap-2 px-6 py-2.5 bg-accent text-white font-semibold rounded-full hover:bg-accent-hover transition-colors text-sm">
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
-                privacy@songgift.app
+                support@songgift.app
               </a>
               <Link href="/contact" className="inline-flex items-center gap-2 px-6 py-2.5 bg-white text-accent font-semibold rounded-full border-2 border-accent hover:bg-accent/5 transition-colors text-sm">
                 Contact Page

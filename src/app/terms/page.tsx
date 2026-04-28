@@ -89,7 +89,7 @@ export default function TermsPage() {
               </h2>
               <div className="pl-10 space-y-3">
                 <p className="text-text-muted leading-relaxed text-sm"><strong className="text-text-dark">Your License:</strong> Upon full payment, you are granted a perpetual, non-exclusive, non-transferable license to use your custom song for personal, non-commercial purposes. This includes listening, sharing with friends and family, playing at private events, posting on personal social media accounts (with credit to SongGift), and gifting to the intended recipient.</p>
-                <p className="text-text-muted leading-relaxed text-sm"><strong className="text-text-dark">Commercial Use:</strong> Commercial use of your custom song — including but not limited to use in advertising, film, television, radio, streaming platforms for revenue, or resale — is strictly prohibited without a separate commercial licensing agreement. Contact us at <a href="mailto:licensing@songgift.app" className="text-accent hover:text-accent-hover font-semibold">licensing@songgift.app</a> for commercial licensing inquiries.</p>
+                <p className="text-text-muted leading-relaxed text-sm"><strong className="text-text-dark">Commercial Use:</strong> Commercial use of your custom song — including but not limited to use in advertising, film, television, radio, streaming platforms for revenue, or resale — is strictly prohibited without a separate commercial licensing agreement. Contact us at <a href="mailto:support@songgift.app" className="text-accent hover:text-accent-hover font-semibold">support@songgift.app</a> for commercial licensing inquiries.</p>
                 <p className="text-text-muted leading-relaxed text-sm"><strong className="text-text-dark">SongGift Rights:</strong> SongGift and its musicians retain certain rights to the composition and recording, including the right to use excerpts or anonymized versions for portfolio, promotional, and marketing purposes (such as our playlist page and social media). Your personal stories and identifying details will never be shared publicly without your explicit written consent.</p>
                 <p className="text-text-muted leading-relaxed text-sm"><strong className="text-text-dark">Your Warranty:</strong> You warrant that any content, stories, names, or other materials you provide to us do not infringe on the intellectual property rights, privacy rights, or any other rights of any third party. You agree to indemnify SongGift against any claims arising from the content you provide.</p>
               </div>
@@ -181,9 +181,9 @@ export default function TermsPage() {
             <h3 className="font-bold text-text-dark text-lg mb-2">Questions About These Terms?</h3>
             <p className="text-sm text-text-muted mb-4">We&apos;re happy to clarify any part of our terms and conditions.</p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-              <a href="mailto:legal@songgift.app" className="inline-flex items-center gap-2 px-6 py-2.5 bg-accent text-white font-semibold rounded-full hover:bg-accent-hover transition-colors text-sm">
+              <a href="mailto:support@songgift.app" className="inline-flex items-center gap-2 px-6 py-2.5 bg-accent text-white font-semibold rounded-full hover:bg-accent-hover transition-colors text-sm">
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
-                legal@songgift.app
+                support@songgift.app
               </a>
               <Link href="/contact" className="inline-flex items-center gap-2 px-6 py-2.5 bg-white text-accent font-semibold rounded-full border-2 border-accent hover:bg-accent/5 transition-colors text-sm">
                 Contact Page
