@@ -104,7 +104,7 @@ export const finalFunny: Post[] = [
 ];
 
 export const finalTrust: Post[] = [
-{text:`Still on the fence?\n\nHere's what $79 gets you:\n\n- Original song\n- Studio production\n- Custom artwork\n- Lyric sheet\n- MP3 + WAV\n- Unlimited revisions\n- Happy tears\n\nSeems worth it.`,link:C,category:'trust'},
+{text:`Still on the fence?\n\nHere's what $79 gets you:\n\n- Original song\n- Studio production\n- Standard album cover\n- Lyric sheet\n- MP3 + WAV\n- Unlimited revisions\n- Happy tears\n\n🎨 Add Custom Album Art for +$20!\n\nSeems worth it.`,link:C,category:'trust'},
 {text:`We've created songs for every emotion on the spectrum.\n\nJoy. Grief. Gratitude. Laughter. Love.\n\nWhat's yours?`,link:C,category:'trust'},
 {text:`Your custom song is waiting to be created.\n\nAll we need is your story.\n\n2 minutes to order. 3–5 business days to deliver. A lifetime to cherish.`,link:C,category:'trust'},
 {text:`Quick math:\n\n$79 ÷ every time they press play = the cheapest per-listen gift in history.\n\nCustom songs win.`,link:C,category:'trust'},

@@ -144,7 +144,7 @@ export const moreTrust: Post[] = [
 {text:`Express delivery: 24 hours.\n\nStandard: 3–5 business days.\n\nBoth: incredible.\n\nYour call.`,link:C,category:'trust'},
 {text:`No subscriptions. No hidden fees.\n\nJust $79 for a custom song that changes everything.`,link:C,category:'trust'},
 {text:`We take your 5-minute story and turn it into a 3-minute masterpiece.\n\nThat's the SongGift difference.`,link:C,category:'trust'},
-{text:`Custom lyrics ✅\nStudio recording ✅\nCover art ✅\nLyric sheet ✅\nMP3 + WAV ✅\nUnlimited revisions ✅\n\n$79. All in.`,link:C,category:'trust'},
+{text:`Custom lyrics ✅\nStudio recording ✅\nStandard album cover ✅\nLyric sheet ✅\nMP3 + WAV ✅\nUnlimited revisions ✅\n\n$79. All in.\n\n🎨 Want custom album art? Add it for just $20!`,link:C,category:'trust'},
 {text:`Don't take our word for it.\n\nListen to the songs we've created and judge for yourself.`,link:`${S}/playlist`,category:'trust'},
 {text:`We treat every order like it's for someone WE love.\n\nBecause to you, it is.`,link:C,category:'trust'},
 {text:`The process takes 2 minutes.\n\nThe memory lasts a lifetime.\n\nCreate your custom song now.`,link:C,category:'trust'},

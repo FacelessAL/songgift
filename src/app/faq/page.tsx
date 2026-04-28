@@ -10,7 +10,7 @@ export const metadata: Metadata = {
 const faqs = [
   {
     question: 'How much does it cost?',
-    answer: 'Our Custom Song Package starts at an affordable price and includes custom songwriting, recording, mixing, mastering, digital delivery, custom cover art, and unlimited revisions. Visit our Create page for current pricing details.',
+    answer: 'Our Custom Song Package is $79 and includes custom songwriting, recording, mixing, mastering, digital delivery (MP3 & WAV), a standard album cover, lyric sheet, and unlimited revisions. You can also add Custom Album Art for +$20 and Express Delivery for +$39.',
   },
   {
     question: 'How long does delivery take?',
@@ -18,11 +18,11 @@ const faqs = [
   },
   {
     question: 'How will I receive my song?',
-    answer: 'Your song will be delivered digitally via email. You will receive high-quality MP3 and WAV files, along with your custom cover art and lyric sheet.',
+    answer: 'Your song will be delivered digitally via email. You will receive high-quality MP3 and WAV files, a standard album cover, and a lyric sheet. If you added Custom Album Art (+$20), you will also receive your hand-designed artwork.',
   },
   {
     question: 'How will I know when my song is ready?',
-    answer: "We'll send you email updates as your song progresses. Once it's complete, you'll receive your finished song (MP3 & WAV), cover art, and lyric sheet directly to your email.",
+    answer: "We'll send you email updates as your song progresses. Once it's complete, you'll receive your finished song (MP3 & WAV), album cover, and lyric sheet directly to your email.",
   },
   {
     question: 'Is there a money-back guarantee?',

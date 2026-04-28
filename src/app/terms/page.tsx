@@ -52,7 +52,7 @@ export default function TermsPage() {
                 2. Service Description
               </h2>
               <div className="pl-10 space-y-3">
-                <p className="text-text-muted leading-relaxed text-sm">SongGift provides custom song creation services where we write, record, mix, and master personalized songs based on your specifications, stories, memories, and preferences. Our services include custom songwriting and composition, studio-quality recording and production, mixing and mastering, digital delivery in high-quality MP3 and WAV formats, custom cover art, lyric sheet, and unlimited revisions until you are satisfied.</p>
+                <p className="text-text-muted leading-relaxed text-sm">SongGift provides custom song creation services where we write, record, mix, and master personalized songs based on your specifications, stories, memories, and preferences. Our services include custom songwriting and composition, studio-quality recording and production, mixing and mastering, digital delivery in high-quality MP3 and WAV formats, a standard album cover, lyric sheet, and unlimited revisions until you are satisfied. Custom Album Art is available as an optional add-on for an additional fee.</p>
                 <p className="text-text-muted leading-relaxed text-sm">The final product is a unique, one-of-a-kind musical work created exclusively for you. Each song is original and will not be reproduced or resold to other customers.</p>
               </div>
             </div>
@@ -102,7 +102,7 @@ export default function TermsPage() {
               </h2>
               <div className="pl-10 space-y-3">
                 <p className="text-text-muted leading-relaxed text-sm"><strong className="text-text-dark">Delivery Timeline:</strong> Standard delivery is within 3�5 business days of order confirmation. Rush delivery (within 24 hours) is available for an additional fee. Delivery times are estimates and may vary based on order volume and complexity. We will notify you of any significant delays.</p>
-                <p className="text-text-muted leading-relaxed text-sm"><strong className="text-text-dark">Digital Delivery:</strong> Songs are delivered digitally via email to the address provided during checkout. You will receive high-quality MP3 and WAV files, custom cover art, and a lyric sheet. It is your responsibility to ensure the email address you provide is accurate.</p>
+                <p className="text-text-muted leading-relaxed text-sm"><strong className="text-text-dark">Digital Delivery:</strong> Songs are delivered digitally via email to the address provided during checkout. You will receive high-quality MP3 and WAV files, a standard album cover, and a lyric sheet. If you purchased Custom Album Art, your hand-designed artwork will also be included. It is your responsibility to ensure the email address you provide is accurate.</p>
                 <p className="text-text-muted leading-relaxed text-sm"><strong className="text-text-dark">Revisions:</strong> We offer unlimited revisions to ensure your complete satisfaction. Revisions include adjustments to lyrics, melody, tempo, instrumentation, and vocal style. However, a complete restart or fundamental change in concept (e.g., changing from a love song to a rap) after production is complete may be subject to additional fees at our discretion.</p>
               </div>
             </div>

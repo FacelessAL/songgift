@@ -20,7 +20,7 @@ export async function POST(req: NextRequest) {
           currency: 'usd',
           product_data: {
             name: 'Custom Song Package',
-            description: `Personalized song for ${songData.recipientName || 'your loved one'}. Includes songwriting, recording, mixing, mastering, cover art, and unlimited revisions.`,
+            description: `Personalized song for ${songData.recipientName || 'your loved one'}. Includes songwriting, recording, mixing, mastering, standard album cover, lyric sheet, and unlimited revisions.`,
           },
           unit_amount: BASE_PRICE,
         },

@@ -106,12 +106,12 @@ export const family: Post[] = [
 const C = `${S}/create`;
 export const trust: Post[] = [
 {text:`Studio-quality production. Custom lyrics. Delivered in 3–5 business days.\n\nStarting at $79. Your love story deserves to be heard.`,link:C,category:'trust'},
-{text:`Custom song + cover art + lyric sheet + MP3 & WAV = $79.\n\nThe most meaningful gift you'll ever give.`,link:C,category:'trust'},
+{text:`Custom song + standard album cover + lyric sheet + MP3 & WAV = $79.\n\nThe most meaningful gift you'll ever give.\n\n🎨 Upgrade to Custom Album Art for just +$20!`,link:C,category:'trust'},
 {text:`Not sure if a custom song is worth it?\n\nListen to samples and hear the quality for yourself.`,link:`${S}/playlist`,category:'trust'},
-{text:`30-day money-back guarantee. Unlimited revisions. 48-hour delivery.\n\nZero risk. All love.`,link:C,category:'trust'},
+{text:`30-day money-back guarantee. Unlimited revisions. 3\u20135 day delivery.\n\nZero risk. All love.`,link:C,category:'trust'},
 {text:`Pop. Country. R&B. Acoustic. Worship. Rap. Cinematic.\n\nWhatever genre speaks to you, we create it.`,link:C,category:'trust'},
 {text:`How it works:\n\n1. Tell us your story\n2. We create your song\n3. You make someone cry (happy tears)\n\nSimple.`,link:C,category:'trust'},
-{text:`Your custom song includes:\n✅ Original lyrics\n✅ Studio recording\n✅ Cover art\n✅ Lyric sheet\n✅ MP3 & WAV files\n\nAll for $79.`,link:C,category:'trust'},
+{text:`Your custom song includes:\n✅ Original lyrics\n✅ Studio recording\n✅ Standard album cover\n✅ Lyric sheet\n✅ MP3 & WAV files\n\nAll for $79.\n\n🎨 Add Custom Album Art for +$20!`,link:C,category:'trust'},
 {text:`Need it fast? Express delivery gets your song in 24 hours.\n\nPerfect for last-minute gift emergencies.`,link:C,category:'trust'},
 {text:`Every song we create is 100% original.\n\nNo templates. No recycled lyrics. Just YOUR story, set to music.`,link:C,category:'trust'},
 {text:`Not a musician? No problem.\n\nYou bring the story. We bring the talent.\n\nTogether, we make magic.`,link:C,category:'trust'},

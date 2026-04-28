@@ -22,7 +22,7 @@ const packageFeatures = [
   'Custom songwriting & recording',
   'Studio-quality mixing & mastering',
   'Digital delivery (MP3 & WAV)',
-  'Custom cover art design',
+  'Standard album cover included',
   '3–5 business day delivery',
   'Unlimited revisions until perfect',
   'Lyric sheet included',
@@ -130,7 +130,7 @@ export default function HomePage() {
             {[
               { icon: <Music className="w-7 h-7 text-white" />, title: 'Share Your Story', desc: 'Tell us your special moment', bg: 'bg-accent', num: '1' },
               { icon: <Mic2 className="w-7 h-7 text-white" />, title: 'We Create', desc: 'Quality recording & production', bg: 'bg-accent', num: '2' },
-              { icon: <Gift className="w-7 h-7 text-white" />, title: 'You Receive', desc: 'Digital delivery with cover art', bg: 'bg-accent', num: '3' },
+              { icon: <Gift className="w-7 h-7 text-white" />, title: 'You Receive', desc: 'Digital delivery via email', bg: 'bg-accent', num: '3' },
             ].map((step, i) => (
               <div key={i} className="text-center relative">
                 <div className="relative inline-block mb-6">
@@ -219,7 +219,7 @@ export default function HomePage() {
             {[
               { icon: <Headphones className="w-5 h-5" />, title: 'Quality Recording', desc: 'Studio-quality production', color: 'bg-pink-50 text-accent' },
               { icon: <FileAudio className="w-5 h-5" />, title: 'Digital Delivery', desc: 'MP3 & WAV files', color: 'bg-blue-50 text-blue-500' },
-              { icon: <ImageIcon className="w-5 h-5" />, title: 'Custom Artwork', desc: 'Personalized cover art', color: 'bg-orange-50 text-orange-500' },
+              { icon: <ImageIcon className="w-5 h-5" />, title: 'Album Art Add-On', desc: 'Custom artwork +$20', color: 'bg-orange-50 text-orange-500' },
               { icon: <RefreshCw className="w-5 h-5" />, title: 'Unlimited Revisions', desc: "Until it's perfect", color: 'bg-green-50 text-green-500' },
             ].map((item, i) => (
               <div key={i} className="flex items-center gap-3 bg-white rounded-xl p-4 border border-gray-100">
