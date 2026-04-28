@@ -3,7 +3,7 @@ import LandingPageTemplate from '@/components/LandingPageTemplate';
 
 export const metadata: Metadata = {
   title: 'Corporate Song Gift | Custom Business & Team Song | SongGift',
-  description: "Create a custom corporate song for team building, company events, employee appreciation, or brand anthems. We, 24–48 hr delivery.",
+  description: "Create a custom corporate song for team building, company events, employee appreciation, or brand anthems. We, 3–5 day delivery.",
   openGraph: { title: 'Corporate Song Gift | Custom Business & Team Song | SongGift', description: "Elevate your corporate events with a custom business song.", url: 'https://www.songgift.app/corporate-song-gift' },
 };
 

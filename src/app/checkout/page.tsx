@@ -3,8 +3,10 @@
 import Link from 'next/link';
 import { useState, useEffect } from 'react';
 
+const ORIGINAL_PRICE = 199;
 const PRICE = 79;
 const EXPRESS_FEE = 39;
+const ALBUM_ART_FEE = 20;
 
 interface SongData {
   recipientName?: string;
@@ -22,6 +24,10 @@ interface SongData {
 
 export default function CheckoutPage() {
   const [express, setExpress] = useState(false);
+  const [customAlbumArt, setCustomAlbumArt] = useState(false);
+  const [albumArtFile, setAlbumArtFile] = useState<File | null>(null);
+  const [albumArtPreview, setAlbumArtPreview] = useState<string | null>(null);
+  const [albumArtDescription, setAlbumArtDescription] = useState('');
   const [coupon, setCoupon] = useState('');
   const [songData, setSongData] = useState<SongData>({});
   const [loading, setLoading] = useState(false);
@@ -34,10 +40,10 @@ export default function CheckoutPage() {
     } catch {}
   }, []);
 
-  const total = PRICE + (express ? EXPRESS_FEE : 0);
+  const total = PRICE + (express ? EXPRESS_FEE : 0) + (customAlbumArt ? ALBUM_ART_FEE : 0);
 
   const today = new Date();
-  const standardDate = new Date(today.getTime() + 2 * 86400000);
+  const standardDate = new Date(today.getTime() + 5 * 86400000);
   const expressDate = new Date(today.getTime() + 86400000);
   const fmt = (d: Date) => d.toLocaleDateString('en-US', { weekday: 'long', month: 'long', day: 'numeric', year: 'numeric' });
 
@@ -54,7 +60,14 @@ export default function CheckoutPage() {
       const res = await fetch('/api/create-checkout-session', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ songData, express, coupon: coupon.trim() || undefined }),
+        body: JSON.stringify({
+          songData,
+          express,
+          customAlbumArt,
+          albumArtDescription: customAlbumArt ? albumArtDescription : undefined,
+          albumArtFileUploaded: customAlbumArt && albumArtFile ? true : false,
+          coupon: coupon.trim() || undefined,
+        }),
       });
 
       const data = await res.json();
@@ -153,10 +166,13 @@ export default function CheckoutPage() {
               <div className="space-y-3 border-b border-gray-100 pb-4 mb-4">
                 <div className="flex justify-between text-sm">
                   <span className="text-text-dark">Custom Song Package</span>
-                  <span className="text-text-dark font-semibold">${PRICE}</span>
+                  <div className="flex items-center gap-2">
+                    <span className="text-text-muted line-through text-xs">${ORIGINAL_PRICE}</span>
+                    <span className="text-text-dark font-semibold">${PRICE}</span>
+                  </div>
                 </div>
                 <div className="flex justify-between text-sm">
-                  <span className="text-text-dark">Standard Delivery (48 hrs)</span>
+                  <span className="text-text-dark">Standard Delivery (3–5 business days)</span>
                   <span className="text-text-muted">Included</span>
                 </div>
                 <p className="text-xs text-text-muted">Expected delivery by {fmt(standardDate)}.</p>
@@ -168,23 +184,93 @@ export default function CheckoutPage() {
                   <input type="checkbox" checked={express} onChange={e => setExpress(e.target.checked)} className="mt-1 w-4 h-4 accent-accent" />
                   <div className="flex-1">
                     <div className="flex items-center gap-2">
-                      <span className="text-sm font-bold text-text-dark">Express Delivery</span>
+                      <span className="text-sm font-bold text-text-dark">⚡ Express Delivery</span>
                       <span className="px-2 py-0.5 bg-accent text-white text-[10px] font-bold rounded-full">+${EXPRESS_FEE}</span>
                     </div>
-                    <p className="text-xs text-text-muted mt-0.5">Get your song delivered within 24 hours instead of 48 hours.</p>
+                    <p className="text-xs text-text-muted mt-0.5">Get your custom song in 24 hours instead of 3–5 business days!</p>
                   </div>
                 </label>
                 {express && (
                   <div className="mt-2 bg-pink-50 rounded-lg px-3 py-2">
-                    <p className="text-xs text-accent font-semibold">Express delivery selected – Expected by: {fmt(expressDate)}</p>
+                    <p className="text-xs text-accent font-semibold">⚡ Express delivery selected – Expected by: {fmt(expressDate)}</p>
                   </div>
                 )}
               </div>
 
+              {/* Custom Album Art */}
+              <div className="border-b border-gray-100 pb-4 mb-4">
+                <label className="flex items-start gap-3 cursor-pointer">
+                  <input type="checkbox" checked={customAlbumArt} onChange={e => setCustomAlbumArt(e.target.checked)} className="mt-1 w-4 h-4 accent-accent" />
+                  <div className="flex-1">
+                    <div className="flex items-center gap-2">
+                      <span className="text-sm font-bold text-text-dark">🎨 Custom Album Art</span>
+                      <span className="px-2 py-0.5 bg-purple-500 text-white text-[10px] font-bold rounded-full">+${ALBUM_ART_FEE}</span>
+                    </div>
+                    <p className="text-xs text-text-muted mt-0.5">Get unique, hand-designed album artwork for your song. Tell us what you envision and optionally upload a reference photo.</p>
+                  </div>
+                </label>
+                {customAlbumArt && (
+                  <div className="mt-3 space-y-3 pl-7">
+                    <div>
+                      <label className="text-xs font-semibold text-text-dark block mb-1">Describe your vision (optional)</label>
+                      <textarea
+                        value={albumArtDescription}
+                        onChange={e => setAlbumArtDescription(e.target.value)}
+                        className="w-full px-3 py-2 rounded-lg border border-gray-200 text-sm focus:outline-none focus:ring-2 focus:ring-accent/30 focus:border-accent resize-none"
+                        rows={2}
+                        placeholder="e.g. A sunset beach scene with our initials in the sand..."
+                      />
+                    </div>
+                    <div>
+                      <label className="text-xs font-semibold text-text-dark block mb-1">Upload a reference image (optional)</label>
+                      <div className="flex items-center gap-3">
+                        <label className="cursor-pointer inline-flex items-center px-4 py-2 bg-gray-100 text-text-dark text-sm font-semibold rounded-lg hover:bg-gray-200 transition-colors">
+                          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="mr-1.5"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="17 8 12 3 7 8"/><line x1="12" y1="3" x2="12" y2="15"/></svg>
+                          {albumArtFile ? 'Change Image' : 'Choose Image'}
+                          <input
+                            type="file"
+                            accept="image/*"
+                            className="hidden"
+                            onChange={e => {
+                              const file = e.target.files?.[0];
+                              if (file) {
+                                setAlbumArtFile(file);
+                                const reader = new FileReader();
+                                reader.onloadend = () => setAlbumArtPreview(reader.result as string);
+                                reader.readAsDataURL(file);
+                              }
+                            }}
+                          />
+                        </label>
+                        {albumArtFile && <span className="text-xs text-text-muted truncate max-w-[180px]">{albumArtFile.name}</span>}
+                      </div>
+                      {albumArtPreview && (
+                        <div className="mt-2 relative w-20 h-20 rounded-lg overflow-hidden border border-gray-200">
+                          <img src={albumArtPreview} alt="Album art preview" className="w-full h-full object-cover" />
+                          <button
+                            type="button"
+                            onClick={() => { setAlbumArtFile(null); setAlbumArtPreview(null); }}
+                            className="absolute top-0.5 right-0.5 w-5 h-5 bg-red-500 text-white rounded-full text-xs flex items-center justify-center hover:bg-red-600"
+                          >✕</button>
+                        </div>
+                      )}
+                      <p className="text-[10px] text-text-muted mt-1">JPG, PNG, or WEBP. This helps us design your custom artwork.</p>
+                    </div>
+                  </div>
+                )}
+              </div>
+
+              {/* Add-on line items */}
               {express && (
-                <div className="flex justify-between text-sm mb-4">
+                <div className="flex justify-between text-sm mb-2">
                   <span className="font-semibold text-text-dark">Express Delivery</span>
                   <span className="text-text-dark">+${EXPRESS_FEE}</span>
+                </div>
+              )}
+              {customAlbumArt && (
+                <div className="flex justify-between text-sm mb-2">
+                  <span className="font-semibold text-text-dark">Custom Album Art</span>
+                  <span className="text-text-dark">+${ALBUM_ART_FEE}</span>
                 </div>
               )}
 
@@ -210,7 +296,7 @@ export default function CheckoutPage() {
               <div className="flex flex-wrap items-center gap-x-4 gap-y-2 text-[11px] text-text-muted">
                 <span className="inline-flex items-center gap-1">
                   <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="text-accent"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
-                  24–48 hour delivery
+                  3–5 day delivery
                 </span>
                 <span className="inline-flex items-center gap-1">
                   <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="text-accent"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><polyline points="9 12 12 15 16 10"/></svg>

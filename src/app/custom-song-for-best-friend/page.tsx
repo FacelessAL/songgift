@@ -3,7 +3,7 @@ import LandingPageTemplate from '@/components/LandingPageTemplate';
 
 export const metadata: Metadata = {
   title: 'Custom Song for Best Friend | Personalized Friendship Song | SongGift',
-  description: "Create a personalized song for your best friend that celebrates your friendship. We, 24–48 hr delivery. The most thoughtful friendship gift ever.",
+  description: "Create a personalized song for your best friend that celebrates your friendship. We, 3–5 day delivery. The most thoughtful friendship gift ever.",
   openGraph: { title: 'Custom Song for Best Friend | Personalized Song Gift | SongGift', description: 'Celebrate your best friend with a custom song made from your shared memories.', url: 'https://www.songgift.app/custom-song-for-best-friend' },
 };
 

@@ -71,7 +71,7 @@ function SuccessContent() {
               </div>
               <div>
                 <h3 className="font-semibold text-text-dark text-sm">Song Delivered</h3>
-                <p className="text-xs text-text-muted mt-0.5">Your finished song (MP3 &amp; WAV), cover art, and lyric sheet will be delivered to your email within 24–48 hours.</p>
+                <p className="text-xs text-text-muted mt-0.5">Your finished song (MP3 &amp; WAV), cover art, and lyric sheet will be delivered to your email within 24–3�5 business days.</p>
               </div>
             </div>
           </div>

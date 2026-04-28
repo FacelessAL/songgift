@@ -23,7 +23,7 @@ const packageFeatures = [
   'Studio-quality mixing & mastering',
   'Digital delivery (MP3 & WAV)',
   'Custom cover art design',
-  '48-hour standard delivery',
+  '3–5 business day delivery',
   'Unlimited revisions until perfect',
   'Lyric sheet included',
 ];
@@ -61,7 +61,7 @@ export default function HomePage() {
               <div className="flex flex-wrap items-center gap-4 mt-10 pt-6 border-t border-gray-200">
                 <span className="inline-flex items-center gap-1.5 text-sm text-text-muted">
                   <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-accent"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
-                  24–48 hr delivery
+                  3–5 day delivery
                 </span>
                 <span className="inline-flex items-center gap-1.5 text-sm text-text-muted">
                   <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-accent"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><polyline points="9 12 12 15 16 10"/></svg>
@@ -98,7 +98,7 @@ export default function HomePage() {
             <span className="text-5xl font-bold text-white" style={{ fontFamily: 'var(--font-serif)' }}>$79</span>
           </div>
           <div className="flex items-center justify-center gap-6 text-sm text-white/80 mb-8">
-            <span className="inline-flex items-center gap-1.5"><CheckCircle2 size={14} className="text-green-300" /> Delivered within 48 hours</span>
+            <span className="inline-flex items-center gap-1.5"><CheckCircle2 size={14} className="text-green-300" /> Delivered in 3–5 business days</span>
             <span className="inline-flex items-center gap-1.5"><Heart size={14} className="text-pink-300 fill-pink-300" /> Perfect for Mother&apos;s Day</span>
           </div>
           <div className="flex items-center justify-center gap-4">
@@ -279,8 +279,8 @@ export default function HomePage() {
                 <div className="bg-bg-light rounded-xl p-4 mb-6 flex items-start gap-3 text-left">
                   <input type="checkbox" className="mt-1 accent-accent" />
                   <div>
-                    <p className="text-sm font-semibold text-text-dark">Express Delivery Upgrade (+$39)</p>
-                    <p className="text-xs text-text-muted">Get your song delivered within 24 hours instead of within 48 hours. Perfect for last-minute gifts!</p>
+                    <p className="text-sm font-semibold text-text-dark">⚡ Express Delivery Upgrade (+$39)</p>
+                    <p className="text-xs text-text-muted">Get your custom song in 24 hours instead of 3–5 business days! Perfect for last-minute gifts!</p>
                   </div>
                 </div>
 

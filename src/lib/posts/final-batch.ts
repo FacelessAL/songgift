@@ -88,7 +88,7 @@ export const finalValentines: Post[] = [
 ];
 
 export const finalChristmas: Post[] = [
-{text:`Christmas list:\n1. Custom song for Mom\n2. Custom song for Dad\n3. Custom song for partner\n\nDone in 48 hours. Total: $237. Impact: immeasurable.`,link:`${S}/christmas-song-gift`,category:'christmas'},
+{text:`Christmas list:\n1. Custom song for Mom\n2. Custom song for Dad\n3. Custom song for partner\n\nDone in 3–5 business days. Total: $237. Impact: immeasurable.`,link:`${S}/christmas-song-gift`,category:'christmas'},
 {text:`The Christmas gift you'll BOTH remember 30 years from now?\n\nHint: it's not the new TV.\n\nIt's the custom song.`,link:`${S}/christmas-song-gift`,category:'christmas'},
 {text:`Christmas Eve tradition: hot cocoa, holiday movies, and a custom song reveal.\n\nStart the tradition this year.`,link:`${S}/christmas-song-gift`,category:'christmas'},
 {text:`Stocking stuffer idea: a card with a QR code to their custom song.\n\nSmall package. Enormous impact.`,link:`${S}/christmas-song-gift`,category:'christmas'},
@@ -106,12 +106,12 @@ export const finalFunny: Post[] = [
 export const finalTrust: Post[] = [
 {text:`Still on the fence?\n\nHere's what $79 gets you:\n\n- Original song\n- Studio production\n- Custom artwork\n- Lyric sheet\n- MP3 + WAV\n- Unlimited revisions\n- Happy tears\n\nSeems worth it.`,link:C,category:'trust'},
 {text:`We've created songs for every emotion on the spectrum.\n\nJoy. Grief. Gratitude. Laughter. Love.\n\nWhat's yours?`,link:C,category:'trust'},
-{text:`Your custom song is waiting to be created.\n\nAll we need is your story.\n\n2 minutes to order. 48 hours to deliver. A lifetime to cherish.`,link:C,category:'trust'},
+{text:`Your custom song is waiting to be created.\n\nAll we need is your story.\n\n2 minutes to order. 3–5 business days to deliver. A lifetime to cherish.`,link:C,category:'trust'},
 {text:`Quick math:\n\n$79 ÷ every time they press play = the cheapest per-listen gift in history.\n\nCustom songs win.`,link:C,category:'trust'},
 {text:`We don't do "good enough."\n\nWe do "I'm sobbing in the parking lot."\n\nThat's our quality standard.`,link:C,category:'trust'},
 {text:`Acoustic, pop, country, R&B, worship, rap, cinematic.\n\nName the vibe. We create the song.\n\nIt's that simple.`,link:C,category:'trust'},
 {text:`You don't need to be romantic to give a romantic gift.\n\nYou just need to tell us your story. We handle the romance.`,link:C,category:'trust'},
 {text:`A custom song isn't a luxury.\n\nIt's a necessity — for anyone who wants to give the most meaningful gift possible.`,link:C,category:'trust'},
 {text:`We read your story. We get chills. We create your song. They get chills.\n\nThe circle of chills. That's SongGift.`,link:C,category:'trust'},
-{text:`Last-minute gift? Express delivery: 24 hours.\n\nPlanned-in-advance gift? Standard: 48 hours.\n\nEither way: unforgettable.`,link:C,category:'trust'},
+{text:`Last-minute gift? Express delivery: 24 hours.\n\nPlanned-in-advance gift? Standard: 3–5 business days.\n\nEither way: unforgettable.`,link:C,category:'trust'},
 ];

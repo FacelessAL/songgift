@@ -3,7 +3,7 @@ import LandingPageTemplate from '@/components/LandingPageTemplate';
 
 export const metadata: Metadata = {
   title: 'Retirement Song Gift | Custom Personalized Retirement Song | SongGift',
-  description: "Celebrate their retirement with a custom song gift. Honor their career and legacy with a personalized song. We, 24–48 hr delivery.",
+  description: "Celebrate their retirement with a custom song gift. Honor their career and legacy with a personalized song. We, 3–5 day delivery.",
   openGraph: { title: 'Retirement Song Gift | Custom Personalized Retirement Song | SongGift', description: "Send them off into retirement with a personalized custom song.", url: 'https://www.songgift.app/retirement-song-gift' },
 };
 

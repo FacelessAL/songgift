@@ -46,7 +46,7 @@ export const emotional3: Post[] = [
 {text:`Your emotions are valid.\n\nYour story is important.\n\nA custom song proves both.`,link:C,category:c},
 {text:`The best part of a custom song isn't the first listen.\n\nIt's the 50th.\n\nWhen it still hits just as hard.`,link:C,category:c},
 {text:`A gift for the ages.\n\nLiterally. 18 or 80 — a custom song makes everyone feel deeply loved.`,link:C,category:c},
-{text:`They don't make gifts like this anymore.\n\nOh wait. We do.\n\nCustom songs. $79. Delivered in 48 hours.`,link:C,category:c},
+{text:`They don't make gifts like this anymore.\n\nOh wait. We do.\n\nCustom songs. $79. Delivered in 3–5 business days.`,link:C,category:c},
 {text:`In a world of "add to cart," a custom song is the one thing that can't be mass-produced.\n\nBecause it's YOUR story.`,link:C,category:c},
 {text:`When they look back at this year, the custom song will be the highlight.\n\nNot the trip. Not the dinner. The song.`,link:C,category:c},
 {text:`We don't just sell songs.\n\nWe sell the look on someone's face when they realize how deeply they're loved.`,link:C,category:c},

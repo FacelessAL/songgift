@@ -10,7 +10,7 @@ export const valentines: Post[] = [
 {text:`Valentine's Day is ONE day.\n\nA custom song makes that one day live in their heart forever.`,link:VD,category:'valentines'},
 {text:`She doesn't want another generic Valentine's gift.\n\nShe wants to feel like the only person in the world.\n\nA custom song does that.`,link:VD,category:'valentines'},
 {text:`This Valentine's Day, say "I love you" in a way they've NEVER heard before.\n\nWith a song written just for them.`,link:VD,category:'valentines'},
-{text:`Valentine's Day panic? We've got you.\n\nA custom song, delivered in 48 hours. $79. Problem solved.`,link:VD,category:'valentines'},
+{text:`Valentine's Day panic? We've got you.\n\nA custom song, delivered in 3–5 business days. $79. Problem solved.`,link:VD,category:'valentines'},
 {text:`They'll post the roses.\n\nBut the custom song? That becomes their "most played" for the whole year.`,link:VD,category:'valentines'},
 {text:`Fancy dinner + custom song playing during dessert = the most romantic Valentine's Day ever.`,link:VD,category:'valentines'},
 {text:`Valentine's Day 2025 prediction: they cry happy tears because you gave them a custom song.\n\nMake it come true.`,link:VD,category:'valentines'},
@@ -47,7 +47,7 @@ export const mothersDay: Post[] = [
 {text:`Mom taught you unconditional love.\n\nA Mother's Day song is your chance to give some back.`,link:MD,category:'mothers-day'},
 {text:`This Mother's Day, skip the spa gift card.\n\nGive her something that heals her soul — a personalized song.`,link:MD,category:'mothers-day'},
 {text:`She kept every finger painting, every report card, every memory.\n\nNow give her a memory that plays on repeat.`,link:MD,category:'mothers-day'},
-{text:`Mother's Day deadline approaching? We deliver in 48 hours.\n\nA custom song — ordered today, tears by Sunday.`,link:MD,category:'mothers-day'},
+{text:`Mother's Day deadline approaching? We deliver in 3–5 business days.\n\nA custom song — ordered today, tears by Sunday.`,link:MD,category:'mothers-day'},
 ];
 
 // ─── FATHER'S DAY (40 posts) ──────────────────────────────
@@ -97,7 +97,7 @@ export const christmas: Post[] = [
 {text:`Last Christmas, they got socks.\n\nThis Christmas, they get a song about their life.\n\nRedemption. 🎁`,link:XM,category:'christmas'},
 {text:`Deck the halls with a custom song.\n\nSeriously. It's the best Christmas gift ever.`,link:XM,category:'christmas'},
 {text:`Secret Santa? Give the ultimate surprise.\n\nA personalized song. They'll never guess who did it. (But they'll love whoever did.)`,link:XM,category:'christmas'},
-{text:`Christmas delivery guaranteed.\n\n48 hours. $79. One very emotional gift recipient.\n\nOrder now.`,link:XM,category:'christmas'},
+{text:`Christmas delivery guaranteed.\n\n3–5 business days. $79. One very emotional gift recipient.\n\nOrder now.`,link:XM,category:'christmas'},
 ];
 
 // ─── OTHER HOLIDAYS (30 posts) ────────────────────────────

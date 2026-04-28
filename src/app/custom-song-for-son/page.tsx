@@ -3,7 +3,7 @@ import LandingPageTemplate from '@/components/LandingPageTemplate';
 
 export const metadata: Metadata = {
   title: 'Custom Song for Son | Personalized Song Gift from Parents | SongGift',
-  description: "Create a personalized song for your son that celebrates who he is and everything he means to you. Perfect for birthdays, graduations, or just because. We, 24–48 hr delivery.",
+  description: "Create a personalized song for your son that celebrates who he is and everything he means to you. Perfect for birthdays, graduations, or just because. We, 3–5 day delivery.",
   openGraph: { title: 'Custom Song for Son | Personalized Song Gift | SongGift', description: 'Give your son a custom song that captures your pride and love.', url: 'https://www.songgift.app/custom-song-for-son' },
 };
 
@@ -44,7 +44,7 @@ export default function Page() {
       ]}
       seoTitle="A Personalized Song Your Son Will Carry With Him Forever"
       seoContent={`<p>A <strong>custom song for your son</strong> is more than a gift — it's a message he'll carry with him through every chapter of his life. Whether he's graduating, getting married, turning 18, or you just want him to know how proud you are, a <strong>personalized song</strong> puts your love into music.</p>
-<p>We craft each song from your real stories — his childhood memories, his achievements, the bond you share. Choose from <strong>pop, acoustic, rap, R&B, country, worship</strong>, and more. Every song is <strong>delivered in 24–48 hours</strong> with a 30-day satisfaction guarantee.</p>
+<p>We craft each song from your real stories — his childhood memories, his achievements, the bond you share. Choose from <strong>pop, acoustic, rap, R&B, country, worship</strong>, and more. Every song is <strong>delivered in 24–3�5 business days</strong> with a 30-day satisfaction guarantee.</p>
 <p>A <strong>personalized song gift for your son</strong> becomes an anchor — something he can listen to when he's far from home and needs a reminder of how much he's loved.</p>`}
       faqs={[
         { question: 'When is the best time to give my son a custom song?', answer: 'Popular occasions include birthdays, graduations, weddings, milestone achievements, or when he moves away from home. Many parents also order songs simply to express their pride and love.' },

@@ -3,7 +3,7 @@ import LandingPageTemplate from '@/components/LandingPageTemplate';
 
 export const metadata: Metadata = {
   title: 'Sweet 16 Song Gift | Custom Personalized Sweet 16 Song | SongGift',
-  description: "Celebrate her Sweet 16 with a personalized song gift. We craft a custom song just for her milestone birthday. 24–48 hr delivery.",
+  description: "Celebrate her Sweet 16 with a personalized song gift. We craft a custom song just for her milestone birthday. 3–5 day delivery.",
   openGraph: { title: 'Sweet 16 Song Gift | Custom Personalized Sweet 16 Song | SongGift', description: "Make her Sweet 16 unforgettable with a custom song.", url: 'https://www.songgift.app/sweet-16-song-gift' },
 };
 

@@ -3,7 +3,7 @@ import LandingPageTemplate from '@/components/LandingPageTemplate';
 
 export const metadata: Metadata = {
   title: 'Quinceañera Song Gift | Custom Personalized Quinceañera Song | SongGift',
-  description: "Create a personalized quinceañera song gift for her special day. We craft a custom song in English, Spanish, or bilingual. 24–48 hr delivery.",
+  description: "Create a personalized quinceañera song gift for her special day. We craft a custom song in English, Spanish, or bilingual. 3–5 day delivery.",
   openGraph: { title: 'Quinceañera Song Gift | Custom Personalized Quinceañera Song | SongGift', description: "Celebrate her quinceañera with a custom personalized song.", url: 'https://www.songgift.app/quinceanera-song-gift' },
 };
 

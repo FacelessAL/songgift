@@ -3,7 +3,7 @@ import LandingPageTemplate from '@/components/LandingPageTemplate';
 
 export const metadata: Metadata = {
   title: '4th of July Song Gift | Custom Patriotic Song | SongGift',
-  description: "Celebrate Independence Day with a personalized 4th of July song. We craft a custom patriotic or family song. Perfect for BBQs and celebrations. 24–48 hr delivery.",
+  description: "Celebrate Independence Day with a personalized 4th of July song. We craft a custom patriotic or family song. Perfect for BBQs and celebrations. 3–5 day delivery.",
   openGraph: { title: '4th of July Song Gift | Custom Patriotic Song | SongGift', description: "Celebrate the 4th of July with a personalized custom song.", url: 'https://www.songgift.app/fourth-of-july-song-gift' },
 };
 

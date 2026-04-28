@@ -3,7 +3,7 @@ import LandingPageTemplate from '@/components/LandingPageTemplate';
 
 export const metadata: Metadata = {
   title: 'Birthday Song Gift | Custom Personalized Birthday Song | SongGift',
-  description: "Create a personalized birthday song gift they'll never forget. We craft a custom song from your memories. 24–48 hr delivery. Starting at $79.",
+  description: "Create a personalized birthday song gift they'll never forget. We craft a custom song from your memories. 3–5 day delivery. Starting at $79.",
   openGraph: { title: 'Birthday Song Gift | Custom Personalized Birthday Song | SongGift', description: "Give them the most memorable birthday gift ever — a custom song made just for them.", url: 'https://www.songgift.app/birthday-song-gift' },
 };
 
@@ -44,7 +44,7 @@ export default function BirthdaySongGift() {
       ]}
       faqs={[
         { question: "What is a unique birthday gift idea?", answer: "A personalized birthday song is one of the most unique and thoughtful gifts you can give. It celebrates who they are with custom lyrics and original music." },
-        { question: "How fast can I get a birthday song?", answer: "Standard delivery is 24–48 hours. Express delivery within 24 hours is available for $39 — perfect for last-minute birthday gifts." },
+        { question: "How fast can I get a birthday song?", answer: "Standard delivery is 24–3�5 business days. Express delivery within 24 hours is available for $39 — perfect for last-minute birthday gifts." },
         { question: "Can I play the song at a birthday party?", answer: "Absolutely! We deliver high-quality audio files (MP3 & WAV) that you can play on any device at the party." },
       ]}
     />

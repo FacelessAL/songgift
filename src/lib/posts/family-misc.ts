@@ -105,7 +105,7 @@ export const family: Post[] = [
 // ─── TRUST / SOCIAL PROOF (50 posts) ──────────────────────
 const C = `${S}/create`;
 export const trust: Post[] = [
-{text:`Studio-quality production. Custom lyrics. Delivered in 48 hours.\n\nStarting at $79. Your love story deserves to be heard.`,link:C,category:'trust'},
+{text:`Studio-quality production. Custom lyrics. Delivered in 3–5 business days.\n\nStarting at $79. Your love story deserves to be heard.`,link:C,category:'trust'},
 {text:`Custom song + cover art + lyric sheet + MP3 & WAV = $79.\n\nThe most meaningful gift you'll ever give.`,link:C,category:'trust'},
 {text:`Not sure if a custom song is worth it?\n\nListen to samples and hear the quality for yourself.`,link:`${S}/playlist`,category:'trust'},
 {text:`30-day money-back guarantee. Unlimited revisions. 48-hour delivery.\n\nZero risk. All love.`,link:C,category:'trust'},
@@ -118,7 +118,7 @@ export const trust: Post[] = [
 {text:`Still thinking about it?\n\nThe only people who regret a custom song are the ones who didn't order one.`,link:C,category:'trust'},
 {text:`$79 for a gift they'll listen to for years vs. $79 for something they'll forget in a week.\n\nThe choice is clear.`,link:C,category:'trust'},
 {text:`We take your memories seriously.\n\nEvery detail you share becomes a lyric they'll sing in the shower.`,link:C,category:'trust'},
-{text:`The process is simple:\n\n📝 Fill out the form\n🎵 We create your song\n📧 Delivered to your inbox\n\n48 hours. Done.`,link:C,category:'trust'},
+{text:`The process is simple:\n\n📝 Fill out the form\n🎵 We create your song\n📧 Delivered to your inbox\n\n3–5 business days. Done.`,link:C,category:'trust'},
 {text:`We don't do cookie-cutter.\n\nEvery song is handcrafted, from the first note to the last word.`,link:C,category:'trust'},
 {text:`What happens after you order:\n\n1. We read your story\n2. We get emotional\n3. We write an incredible song\n4. You get emotional\n\nIt's a whole cycle of feelings.`,link:C,category:'trust'},
 {text:`Unlimited revisions until you love it.\n\nWe don't stop until your song is perfect.`,link:C,category:'trust'},

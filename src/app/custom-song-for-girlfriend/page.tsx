@@ -3,7 +3,7 @@ import LandingPageTemplate from '@/components/LandingPageTemplate';
 
 export const metadata: Metadata = {
   title: 'Custom Song for Girlfriend | Personalized Romantic Song Gift | SongGift',
-  description: "Create a personalized song for your girlfriend that captures your love story. We, 24–48 hr delivery. The most romantic gift she'll ever receive.",
+  description: "Create a personalized song for your girlfriend that captures your love story. We, 3–5 day delivery. The most romantic gift she'll ever receive.",
   openGraph: { title: 'Custom Song for Girlfriend | Romantic Personalized Song | SongGift', description: "Surprise your girlfriend with a custom love song. We turn your story into music.", url: 'https://www.songgift.app/custom-song-for-girlfriend' },
 };
 
@@ -40,10 +40,10 @@ export default function CustomSongForGirlfriend() {
       ]}
       seoTitle="Create the Most Romantic Gift Your Girlfriend Has Ever Received"
       seoContent={`<p>Looking for a truly unique and romantic gift for your girlfriend? A <strong>custom song for your girlfriend</strong> transforms your real love story into a custom-produced song she can listen to forever. It's personal, it's creative, and it's guaranteed to make her cry happy tears.</p>
-<p>At SongGift, <strong>we</strong> take the details you share — how you met, your inside jokes, what makes her special — and craft a <strong>radio-quality personalized song</strong> in her favorite genre. Pop, acoustic, R&B, country — you choose. Delivered digitally in <strong>24–48 hours</strong>.</p>
+<p>At SongGift, <strong>we</strong> take the details you share — how you met, your inside jokes, what makes her special — and craft a <strong>radio-quality personalized song</strong> in her favorite genre. Pop, acoustic, R&B, country — you choose. Delivered digitally in <strong>24–3�5 business days</strong>.</p>
 <p>Whether it's for her <strong>birthday</strong>, your <strong>anniversary</strong>, <strong>Valentine's Day</strong>, or just because you want her to know she's loved, a <strong>personalized love song</strong> is the kind of gift that becomes "your song" forever.</p>`}
       faqs={[
-        { question: 'How do I order a custom song for my girlfriend?', answer: 'Fill out our simple form with details about your relationship and she will receive a custom personalized song within 24–48 hours.' },
+        { question: 'How do I order a custom song for my girlfriend?', answer: 'Fill out our simple form with details about your relationship and she will receive a custom personalized song within 24–3�5 business days.' },
         { question: 'Is a custom song a good Valentine\'s Day gift for my girlfriend?', answer: "Absolutely! A personalized song is one of the most romantic Valentine's Day gifts you can give. It shows incredible thoughtfulness and creativity." },
         { question: 'What if I\'m not a good writer?', answer: 'No worries! Just share bullet points, memories, or even voice notes. We will craft beautiful lyrics from whatever you provide.' },
       ]}

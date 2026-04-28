@@ -27,6 +27,8 @@ const CUSTOM_FIELDS = {
   heartsMessage:      '1y15REdkoOenZCVLgOdv',  // Your heart's message
   rephraseOk:         'BcFgnhSgf0ysvttBLTo2',  // It's okay to rephrase this beautifully
   expressDelivery:    'JwONZHUbpNR7WymhRCvv',  // Express Delivery
+  albumReferenceImage: 'lEjTkq3EGZ3HWbko0FTw',  // Album Reference Image (FILE_UPLOAD)
+  customAlbumArt:      'rH3pvznrCuEITrq3AJwR',  // Custom Album Art (CHECKBOX)
 } as const;
 
 interface GHLContactInput {
@@ -57,6 +59,9 @@ interface SongOrderData {
   heartsMessage?: string;
   rephraseOk?: boolean;
   express?: boolean;
+  customAlbumArt?: boolean;
+  albumArtDescription?: string;
+  albumArtFileUploaded?: boolean;
   amount?: number;
   stripeSessionId?: string;
 }
@@ -183,6 +188,7 @@ export async function processOrder(
   // 1. Build tags
   const purchaseTags = ['purchased', ...(contact.tags || [])];
   if (order.express) purchaseTags.push('express-delivery');
+  if (order.customAlbumArt) purchaseTags.push('custom-album-art');
 
   // 2. Build custom field data
   const customData: Record<string, string | string[]> = {
@@ -211,6 +217,9 @@ export async function processOrder(
   if (order.express) {
     customData.expressDelivery = ['Express Delivery'];
   }
+  if (order.customAlbumArt) {
+    customData.customAlbumArt = ['Custom Album Art'];
+  }
 
   // 3. Upsert contact with all data
   const contactId = await upsertContact(
@@ -237,6 +246,9 @@ export async function processOrder(
     `Faith: ${order.faith || 'None specified'}`,
     `Rephrase OK: ${order.rephraseOk ? 'Yes' : 'No'}`,
     `Express Delivery: ${order.express ? 'Yes' : 'No'}`,
+    `Custom Album Art: ${order.customAlbumArt ? 'Yes (+$20)' : 'No'}`,
+    `Album Art Description: ${order.albumArtDescription || 'N/A'}`,
+    `Album Art Reference Uploaded: ${order.albumArtFileUploaded ? 'Yes' : 'No'}`,
     ``,
     `💬 QUALITIES LOVED`,
     order.qualities || 'N/A',

@@ -3,7 +3,7 @@ import LandingPageTemplate from '@/components/LandingPageTemplate';
 
 export const metadata: Metadata = {
   title: 'Thanksgiving Song Gift | Custom Gratitude Song | SongGift',
-  description: "Express gratitude this Thanksgiving with a personalized song gift. We craft a custom song celebrating family and thankfulness. 24–48 hr delivery.",
+  description: "Express gratitude this Thanksgiving with a personalized song gift. We craft a custom song celebrating family and thankfulness. 3–5 day delivery.",
   openGraph: { title: 'Thanksgiving Song Gift | Custom Gratitude Song | SongGift', description: "Celebrate Thanksgiving with a personalized gratitude song.", url: 'https://www.songgift.app/thanksgiving-song-gift' },
 };
 

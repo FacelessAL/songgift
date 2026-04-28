@@ -3,7 +3,7 @@ import LandingPageTemplate from '@/components/LandingPageTemplate';
 
 export const metadata: Metadata = {
   title: 'Wedding Song Gift | Custom Song for Weddings & Receptions | SongGift',
-  description: "Create a custom wedding song for the big day. Perfect for first dances, father-daughter dances, mother-son dances, or wedding gifts. We, 24–48 hr delivery.",
+  description: "Create a custom wedding song for the big day. Perfect for first dances, father-daughter dances, mother-son dances, or wedding gifts. We, 3–5 day delivery.",
   openGraph: { title: 'Wedding Song Gift | Custom Song for Weddings & Receptions | SongGift', description: "Make their wedding unforgettable with a custom song.", url: 'https://www.songgift.app/wedding-song-gift' },
 };
 
@@ -45,7 +45,7 @@ export default function Page() {
       faqs={[
         { question: "Can I use a custom song for a first dance?", answer: "Yes! Many couples use SongGift songs as their first dance song. We create romantic, danceable songs in any genre and tempo you prefer." },
         { question: "Can I order a wedding song as a gift for the couple?", answer: "Absolutely! Custom wedding songs are one of our most popular gifts from parents, siblings, and friends of the couple." },
-        { question: "How far in advance should I order a wedding song?", answer: "We recommend at least 1 week before the wedding, though our standard 24–48 hour delivery means even last-minute orders are possible." },
+        { question: "How far in advance should I order a wedding song?", answer: "We recommend at least 1 week before the wedding, though our standard 3–5 hour delivery means even last-minute orders are possible." },
       ]}
     />
   );

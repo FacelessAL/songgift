@@ -3,7 +3,7 @@ import LandingPageTemplate from '@/components/LandingPageTemplate';
 
 export const metadata: Metadata = {
   title: 'Custom Song for Dad | Personalized Song Gift for Father | SongGift',
-  description: "Create a heartfelt custom song for your dad. We turn your memories into a personalized song he'll treasure forever. Perfect for Father's Day, birthdays, or retirement. 24–48 hr delivery.",
+  description: "Create a heartfelt custom song for your dad. We turn your memories into a personalized song he'll treasure forever. Perfect for Father's Day, birthdays, or retirement. 3–5 day delivery.",
   openGraph: { title: 'Custom Song for Dad | Personalized Song Gift | SongGift', description: "Honor your dad with a custom song made from your real memories.", url: 'https://www.songgift.app/custom-song-for-dad' },
 };
 
@@ -45,7 +45,7 @@ export default function Page() {
       seoTitle="The Perfect Personalized Gift to Honor Your Dad"
       seoContent={`<p>Finding a gift that truly honors your dad can be tough — he probably says he doesn't need anything. But a <strong>custom song for dad</strong> is the gift he never knew he needed and the one he'll never forget. We take your real stories and create a song that celebrates who he is.</p>
 <p>Whether it's <strong>Father's Day</strong>, his <strong>birthday</strong>, <strong>retirement</strong>, or you just want him to know how much he means to you, a <strong>personalized song for your father</strong> captures the bond between you in a way nothing else can. Choose from <strong>acoustic, country, pop, R&B, worship</strong>, and more.</p>
-<p>Every song is <strong>delivered in 24–48 hours</strong> with express options available. Backed by our <strong>30-day money-back guarantee</strong>, SongGift is the trusted choice for creating <strong>custom music gifts for dads</strong> that make even the toughest guys emotional.</p>`}
+<p>Every song is <strong>delivered in 24–3�5 business days</strong> with express options available. Backed by our <strong>30-day money-back guarantee</strong>, SongGift is the trusted choice for creating <strong>custom music gifts for dads</strong> that make even the toughest guys emotional.</p>`}
       faqs={[
         { question: "What is a good personalized gift for Dad?", answer: "A custom song is one of the most unique and meaningful personalized gifts for dads. It honors who he is with real memories set to music he can replay anytime." },
         { question: "Is a custom song a good Father's Day gift?", answer: "Yes! Custom songs are one of our most popular Father's Day gifts. Dads consistently say it's the most thoughtful gift they've ever received." },

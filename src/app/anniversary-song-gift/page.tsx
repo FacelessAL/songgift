@@ -3,7 +3,7 @@ import LandingPageTemplate from '@/components/LandingPageTemplate';
 
 export const metadata: Metadata = {
   title: 'Anniversary Song Gift | Custom Personalized Anniversary Song | SongGift',
-  description: "Celebrate your anniversary with a personalized song that captures your journey together. We, 24–48 hr delivery. The most romantic anniversary gift.",
+  description: "Celebrate your anniversary with a personalized song that captures your journey together. We, 3–5 day delivery. The most romantic anniversary gift.",
   openGraph: { title: 'Anniversary Song Gift | Custom Personalized Anniversary Song | SongGift', description: "Turn your love story into a custom anniversary song.", url: 'https://www.songgift.app/anniversary-song-gift' },
 };
 

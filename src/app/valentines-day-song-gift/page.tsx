@@ -3,7 +3,7 @@ import LandingPageTemplate from '@/components/LandingPageTemplate';
 
 export const metadata: Metadata = {
   title: "Valentine's Day Song Gift | Custom Romantic Song | SongGift",
-  description: "Create the most romantic Valentine's Day gift ever — a personalized love song. We, 24–48 hr delivery. Surprise them with a custom song they'll treasure.",
+  description: "Create the most romantic Valentine's Day gift ever — a personalized love song. We, 3–5 day delivery. Surprise them with a custom song they'll treasure.",
   openGraph: { title: "Valentine's Day Song Gift | Custom Romantic Song | SongGift", description: "The ultimate Valentine's Day gift — a custom love song made from your real story.", url: 'https://www.songgift.app/valentines-day-song-gift' },
 };
 

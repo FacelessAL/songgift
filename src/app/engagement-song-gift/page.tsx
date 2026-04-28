@@ -3,7 +3,7 @@ import LandingPageTemplate from '@/components/LandingPageTemplate';
 
 export const metadata: Metadata = {
   title: 'Engagement Song Gift | Custom Song for Engagements | SongGift',
-  description: "Celebrate their engagement with a custom song gift. Perfect for engagement parties, proposals, or the couple. We, 24–48 hr delivery.",
+  description: "Celebrate their engagement with a custom song gift. Perfect for engagement parties, proposals, or the couple. We, 3–5 day delivery.",
   openGraph: { title: 'Engagement Song Gift | Custom Song for Engagements | SongGift', description: "Mark their engagement with a personalized song.", url: 'https://www.songgift.app/engagement-song-gift' },
 };
 
@@ -45,7 +45,7 @@ export default function Page() {
       faqs={[
         { question: "Can I use a custom song for a proposal?", answer: "Yes! Many customers use SongGift songs as the backdrop to their proposal. Check our Proposal Song page for more details." },
         { question: "Is an engagement song a good gift for the couple?", answer: "Absolutely! A custom engagement song celebrates their love story and becomes a keepsake they treasure through their wedding and beyond." },
-        { question: "How fast can I get an engagement song?", answer: "Standard delivery is 24–48 hours. Express delivery within 24 hours is available for surprise proposals or last-minute gifts." },
+        { question: "How fast can I get an engagement song?", answer: "Standard delivery is 24–3�5 business days. Express delivery within 24 hours is available for surprise proposals or last-minute gifts." },
       ]}
     />
   );

@@ -3,7 +3,7 @@ import LandingPageTemplate from '@/components/LandingPageTemplate';
 
 export const metadata: Metadata = {
   title: "Father's Day Song Gift | Custom Song for Dad | SongGift",
-  description: "Create a personalized Father's Day song gift your dad will treasure forever. We craft a custom song honoring everything he does. 24–48 hr delivery.",
+  description: "Create a personalized Father's Day song gift your dad will treasure forever. We craft a custom song honoring everything he does. 3–5 day delivery.",
   openGraph: { title: "Father's Day Song Gift | Custom Song for Dad | SongGift", description: "Make this Father's Day one he'll never forget with a custom song.", url: 'https://www.songgift.app/fathers-day-song-gift' },
 };
 

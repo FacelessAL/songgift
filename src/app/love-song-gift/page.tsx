@@ -3,7 +3,7 @@ import LandingPageTemplate from '@/components/LandingPageTemplate';
 
 export const metadata: Metadata = {
   title: 'Love Song Gift | Custom Personalized Love Song | SongGift',
-  description: "Create a personalized love song for your significant other. We craft a custom romantic song from your real love story. 24–48 hr delivery. Starting at $79.",
+  description: "Create a personalized love song for your significant other. We craft a custom romantic song from your real love story. 3–5 day delivery. Starting at $79.",
   openGraph: { title: 'Love Song Gift | Custom Personalized Love Song | SongGift', description: "Turn your love story into a custom personalized love song.", url: 'https://www.songgift.app/love-song-gift' },
 };
 

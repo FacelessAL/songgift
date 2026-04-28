@@ -3,7 +3,7 @@ import LandingPageTemplate from '@/components/LandingPageTemplate';
 
 export const metadata: Metadata = {
   title: 'Halloween Song Gift | Custom Spooky Song | SongGift',
-  description: "Create a fun personalized Halloween song! We craft a custom spooky, funny, or themed song perfect for Halloween parties. 24–48 hr delivery.",
+  description: "Create a fun personalized Halloween song! We craft a custom spooky, funny, or themed song perfect for Halloween parties. 3–5 day delivery.",
   openGraph: { title: 'Halloween Song Gift | Custom Spooky Song | SongGift', description: "Create a custom Halloween song that's spooky, funny, or both.", url: 'https://www.songgift.app/halloween-song-gift' },
 };
 

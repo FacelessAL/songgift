@@ -3,7 +3,7 @@ import LandingPageTemplate from '@/components/LandingPageTemplate';
 
 export const metadata: Metadata = {
   title: 'Custom Song for Sister | Personalized Song Gift for Siblings | SongGift',
-  description: "Create a personalized song for your sister that celebrates your bond. We, 24–48 hr delivery. Perfect for birthdays, weddings, or just because.",
+  description: "Create a personalized song for your sister that celebrates your bond. We, 3–5 day delivery. Perfect for birthdays, weddings, or just because.",
   openGraph: { title: 'Custom Song for Sister | Personalized Song Gift | SongGift', description: 'Celebrate your sister with a custom song made from your shared memories.', url: 'https://www.songgift.app/custom-song-for-sister' },
 };
 

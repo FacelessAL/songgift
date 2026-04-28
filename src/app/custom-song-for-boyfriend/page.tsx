@@ -3,7 +3,7 @@ import LandingPageTemplate from '@/components/LandingPageTemplate';
 
 export const metadata: Metadata = {
   title: 'Custom Song for Boyfriend | Personalized Song Gift for Him | SongGift',
-  description: "Surprise your boyfriend with a custom song that captures your love story. We, personalized lyrics, delivered in 24–48 hours. The most thoughtful gift he'll ever receive.",
+  description: "Surprise your boyfriend with a custom song that captures your love story. We, personalized lyrics, delivered in 24–3�5 business days. The most thoughtful gift he'll ever receive.",
   openGraph: { title: 'Custom Song for Boyfriend | Personalized Song Gift | SongGift', description: 'Create a one-of-a-kind song for your boyfriend from your real love story.', url: 'https://www.songgift.app/custom-song-for-boyfriend' },
 };
 
@@ -44,12 +44,12 @@ export default function Page() {
       ]}
       seoTitle="The Most Thoughtful Gift You Can Give Your Boyfriend"
       seoContent={`<p>Tired of giving the same old gifts? A <strong>custom song for your boyfriend</strong> is the unexpected, deeply personal gift that shows him exactly how much he means to you. We turn your relationship into a one-of-a-kind song he can listen to anytime.</p>
-<p>Share your story — how you met, your favorite moments, what makes him special — and we'll craft a <strong>personalized song in his favorite genre</strong>. Pop, R&B, acoustic, rap, country — every style is available. <strong>Delivered in 24–48 hours</strong> with express options for last-minute surprises.</p>
+<p>Share your story — how you met, your favorite moments, what makes him special — and we'll craft a <strong>personalized song in his favorite genre</strong>. Pop, R&B, acoustic, rap, country — every style is available. <strong>Delivered in 24–3�5 business days</strong> with express options for last-minute surprises.</p>
 <p>A <strong>personalized song gift for your boyfriend</strong> works for any occasion: <strong>birthdays, anniversaries, Valentine's Day</strong>, or just because. It's the gift he never knew he wanted — and the one he'll play on repeat.</p>`}
       faqs={[
         { question: 'What makes a custom song a unique gift for my boyfriend?', answer: 'Unlike store-bought gifts, a custom song is created entirely from your real relationship. It includes your memories, inside jokes, and feelings — making it the most personal gift possible.' },
         { question: 'Can I choose the genre for his song?', answer: 'Yes! Choose from pop, R&B, acoustic, rap/spoken word, country, worship, cinematic, and more to match his musical taste.' },
-        { question: 'How fast can I get the song?', answer: 'Standard delivery is 24–48 hours. Express delivery within 24 hours is available for an additional fee.' },
+        { question: 'How fast can I get the song?', answer: 'Standard delivery is 24–3�5 business days. Express delivery within 24 hours is available for an additional fee.' },
       ]}
     />
   );

@@ -3,8 +3,8 @@ import LandingPageTemplate from '@/components/LandingPageTemplate';
 
 export const metadata: Metadata = {
   title: 'Custom Song for Husband | Personalized Song Gift for Him | SongGift',
-  description: "Create a heartfelt custom song for your husband. We craft personalized lyrics from your love story. Delivered in 24–48 hours. The perfect anniversary, birthday, or Father's Day gift. Starting at $79.",
-  openGraph: { title: 'Custom Song for Husband | Personalized Song Gift for Him | SongGift', description: "Show your husband how much he means to you with a personalized song gift. We, 24–48 hr delivery.", url: 'https://www.songgift.app/custom-song-for-husband' },
+  description: "Create a heartfelt custom song for your husband. We craft personalized lyrics from your love story. Delivered in 24–3�5 business days. The perfect anniversary, birthday, or Father's Day gift. Starting at $79.",
+  openGraph: { title: 'Custom Song for Husband | Personalized Song Gift for Him | SongGift', description: "Show your husband how much he means to you with a personalized song gift. We, 3–5 day delivery.", url: 'https://www.songgift.app/custom-song-for-husband' },
 };
 
 export default function CustomSongForHusband() {
@@ -45,10 +45,10 @@ export default function CustomSongForHusband() {
       seoTitle="The Ultimate Personalized Gift for Your Husband"
       seoContent={`<p>Shopping for the man who has everything? A <strong>custom song for your husband</strong> is the one gift he never saw coming — and the one he'll never forget. Whether it's your <strong>wedding anniversary</strong>, his <strong>birthday</strong>, <strong>Father's Day</strong>, or just because you want him to know how loved he is, a personalized song speaks louder than any card or gadget.</p>
 <p>At SongGift, we take your real story and turn it into a beautifully produced, radio-quality song. You share the details — his personality, your favorite memories, the little things he does that make your heart full — and we do the rest. Choose from <strong>acoustic, pop, country, R&B, worship</strong>, and more.</p>
-<p>Every <strong>personalized song for husbands</strong> is delivered digitally in <strong>24–48 hours</strong>, with rush delivery available. It's the kind of gift that makes a grown man cry — in the best possible way. With a 30-day money-back guarantee and 100% satisfaction promise, there's zero risk and all reward.</p>`}
+<p>Every <strong>personalized song for husbands</strong> is delivered digitally in <strong>24–3�5 business days</strong>, with rush delivery available. It's the kind of gift that makes a grown man cry — in the best possible way. With a 30-day money-back guarantee and 100% satisfaction promise, there's zero risk and all reward.</p>`}
       faqs={[
         { question: 'What makes a custom song a good gift for my husband?', answer: "Men rarely receive deeply personal gifts. A custom song that celebrates who he is — his sacrifices, his humor, his love for the family — is something he'll treasure and replay for years." },
-        { question: 'How long does it take to receive my husband\'s custom song?', answer: 'Standard delivery is 24–48 hours. Express delivery (within 24 hours) is available for an additional $39 — perfect for last-minute gifts.' },
+        { question: 'How long does it take to receive my husband\'s custom song?', answer: 'Standard delivery is 24–3�5 business days. Express delivery (within 24 hours) is available for an additional $39 — perfect for last-minute gifts.' },
         { question: 'Can I surprise him with the song at a party or event?', answer: 'Absolutely! Many customers play the song at anniversary dinners, birthday parties, or family gatherings for maximum impact. We deliver high-quality audio files you can play anywhere.' },
       ]}
     />

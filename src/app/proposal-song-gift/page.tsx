@@ -3,7 +3,7 @@ import LandingPageTemplate from '@/components/LandingPageTemplate';
 
 export const metadata: Metadata = {
   title: 'Proposal Song Gift | Custom Song to Pop the Question | SongGift',
-  description: "Pop the question with a personalized proposal song. We craft a custom song that tells your love story. Make the most memorable proposal ever. 24–48 hr delivery.",
+  description: "Pop the question with a personalized proposal song. We craft a custom song that tells your love story. Make the most memorable proposal ever. 3–5 day delivery.",
   openGraph: { title: 'Proposal Song Gift | Custom Song to Pop the Question | SongGift', description: "Make your proposal unforgettable with a custom song.", url: 'https://www.songgift.app/proposal-song-gift' },
 };
 

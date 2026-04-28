@@ -3,7 +3,7 @@ import LandingPageTemplate from '@/components/LandingPageTemplate';
 
 export const metadata: Metadata = {
   title: 'Easter Song Gift | Custom Personalized Easter Song | SongGift',
-  description: "Celebrate Easter with a personalized song gift for your family. We craft a custom Easter song celebrating faith, family, and new beginnings. 24–48 hr delivery.",
+  description: "Celebrate Easter with a personalized song gift for your family. We craft a custom Easter song celebrating faith, family, and new beginnings. 3–5 day delivery.",
   openGraph: { title: 'Easter Song Gift | Custom Personalized Easter Song | SongGift', description: "Celebrate Easter with a personalized custom song.", url: 'https://www.songgift.app/easter-song-gift' },
 };
 

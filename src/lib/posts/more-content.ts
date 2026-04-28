@@ -141,7 +141,7 @@ export const moreFunny: Post[] = [
 export const moreTrust: Post[] = [
 {text:`$79 for a gift they'll remember forever.\n\n$79 for a gift they'll forget next week.\n\nChoose wisely.`,link:C,category:'trust'},
 {text:`We've created songs for:\n\n- First dates\n- 50th anniversaries\n- Newborns\n- Grandparents\n- Dogs\n\nLiterally. Everyone.`,link:C,category:'trust'},
-{text:`Express delivery: 24 hours.\n\nStandard: 48 hours.\n\nBoth: incredible.\n\nYour call.`,link:C,category:'trust'},
+{text:`Express delivery: 24 hours.\n\nStandard: 3–5 business days.\n\nBoth: incredible.\n\nYour call.`,link:C,category:'trust'},
 {text:`No subscriptions. No hidden fees.\n\nJust $79 for a custom song that changes everything.`,link:C,category:'trust'},
 {text:`We take your 5-minute story and turn it into a 3-minute masterpiece.\n\nThat's the SongGift difference.`,link:C,category:'trust'},
 {text:`Custom lyrics ✅\nStudio recording ✅\nCover art ✅\nLyric sheet ✅\nMP3 + WAV ✅\nUnlimited revisions ✅\n\n$79. All in.`,link:C,category:'trust'},
@@ -152,6 +152,6 @@ export const moreTrust: Post[] = [
 {text:`Any genre. Any occasion. Any love story.\n\nWe create it. You deliver the moment.\n\nTeamwork.`,link:C,category:'trust'},
 {text:`Risk-free: 30-day money-back guarantee.\n\nBut honestly? Nobody's ever asked for one.`,link:C,category:'trust'},
 {text:`Your song. Your story. Your genre.\n\nWe don't do templates. We do custom. 100%.`,link:C,category:'trust'},
-{text:`From order to inbox in 48 hours.\n\nNo shipping. No waiting. No stress.\n\nJust pure, digital emotion.`,link:C,category:'trust'},
+{text:`From order to inbox in 3–5 business days.\n\nNo shipping. No waiting. No stress.\n\nJust pure, digital emotion.`,link:C,category:'trust'},
 {text:`A custom song is the easiest gift to give.\n\nAnd the hardest gift to top.`,link:C,category:'trust'},
 ];

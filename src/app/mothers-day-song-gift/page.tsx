@@ -3,7 +3,7 @@ import LandingPageTemplate from '@/components/LandingPageTemplate';
 
 export const metadata: Metadata = {
   title: "Mother's Day Song Gift | Custom Song for Mom | SongGift",
-  description: "Create a personalized Mother's Day song gift your mom will treasure forever. We craft a custom song from your real memories. 24–48 hr delivery.",
+  description: "Create a personalized Mother's Day song gift your mom will treasure forever. We craft a custom song from your real memories. 3–5 day delivery.",
   openGraph: { title: "Mother's Day Song Gift | Custom Song for Mom | SongGift", description: "Make this Mother's Day unforgettable with a custom song for mom.", url: 'https://www.songgift.app/mothers-day-song-gift' },
 };
 

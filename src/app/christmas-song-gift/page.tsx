@@ -3,7 +3,7 @@ import LandingPageTemplate from '@/components/LandingPageTemplate';
 
 export const metadata: Metadata = {
   title: 'Christmas Song Gift | Custom Personalized Christmas Song | SongGift',
-  description: "Create a personalized Christmas song gift they'll treasure forever. We craft a custom holiday song from your memories. 24–48 hr delivery.",
+  description: "Create a personalized Christmas song gift they'll treasure forever. We craft a custom holiday song from your memories. 3–5 day delivery.",
   openGraph: { title: 'Christmas Song Gift | Custom Personalized Christmas Song | SongGift', description: "Give the most memorable Christmas gift — a custom song made just for them.", url: 'https://www.songgift.app/christmas-song-gift' },
 };
 

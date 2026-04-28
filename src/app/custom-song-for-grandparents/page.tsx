@@ -3,7 +3,7 @@ import LandingPageTemplate from '@/components/LandingPageTemplate';
 
 export const metadata: Metadata = {
   title: 'Custom Song for Grandparents | Personalized Song Gift | SongGift',
-  description: "Honor your grandparents with a personalized song that celebrates their love, legacy, and the memories you share. We, 24–48 hr delivery.",
+  description: "Honor your grandparents with a personalized song that celebrates their love, legacy, and the memories you share. We, 3–5 day delivery.",
   openGraph: { title: 'Custom Song for Grandparents | Personalized Song Gift | SongGift', description: 'Create a custom song that honors your grandparents and their legacy.', url: 'https://www.songgift.app/custom-song-for-grandparents' },
 };
 

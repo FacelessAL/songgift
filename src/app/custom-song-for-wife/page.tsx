@@ -3,10 +3,10 @@ import LandingPageTemplate from '@/components/LandingPageTemplate';
 
 export const metadata: Metadata = {
   title: 'Custom Song for Wife | Personalized Song Gift for Her | SongGift',
-  description: "Create a romantic custom song for your wife. Personalized lyrics, we, delivered in 24–48 hours. The perfect anniversary, birthday, or just-because gift she'll treasure forever. Starting at $79.",
+  description: "Create a romantic custom song for your wife. Personalized lyrics, we, delivered in 24–3�5 business days. The perfect anniversary, birthday, or just-because gift she'll treasure forever. Starting at $79.",
   openGraph: {
     title: 'Custom Song for Wife | Personalized Song Gift for Her | SongGift',
-    description: 'Turn your love story into a personalized song your wife will treasure forever. We, 24–48 hr delivery, 100% satisfaction guarantee.',
+    description: 'Turn your love story into a personalized song your wife will treasure forever. We, 3–5 day delivery, 100% satisfaction guarantee.',
     url: 'https://www.songgift.app/custom-song-for-wife',
   },
 };
@@ -49,10 +49,10 @@ export default function CustomSongForWife() {
       seoTitle="Why a Personalized Song Is the Most Romantic Gift for Your Wife"
       seoContent={`<p>Finding the perfect gift for your wife can feel overwhelming, especially when you want something that truly captures how much she means to you. A <strong>custom song for your wife</strong> is more than a gift — it's a love letter set to music, a personalized keepsake she can listen to anytime she needs a reminder of your love.</p>
 <p>At SongGift, we turn your real love story into a one-of-a-kind song. Whether you're celebrating an <strong>anniversary</strong>, her <strong>birthday</strong>, <strong>Valentine's Day</strong>, or simply want to surprise her on a random Tuesday, a personalized song says "I love you" in a way no store-bought gift ever could.</p>
-<p>Our process is simple: you share your story — how you met, your wedding day, inside jokes, the little things that make your relationship special — and we craft a beautiful, radio-quality song around your words. Choose from genres like <strong>pop, R&B, acoustic, country</strong>, or <strong>worship</strong> to match her taste. Every song is <strong>delivered digitally in 24–48 hours</strong>, with express delivery available for last-minute gifts.</p>
+<p>Our process is simple: you share your story — how you met, your wedding day, inside jokes, the little things that make your relationship special — and we craft a beautiful, radio-quality song around your words. Choose from genres like <strong>pop, R&B, acoustic, country</strong>, or <strong>worship</strong> to match her taste. Every song is <strong>delivered digitally in 24–3�5 business days</strong>, with express delivery available for last-minute gifts.</p>
 <p>A <strong>personalized love song for your wife</strong> isn't just a gift — it becomes a family heirloom. She'll play it on your anniversary, at family dinners, and when she needs to feel close to you. It's the kind of thoughtful, romantic gesture that shows her she married the right person.</p>`}
       faqs={[
-        { question: 'How do I create a custom song for my wife?', answer: 'Simply fill out our song creation form with details about your relationship — how you met, special memories, what you love about her — and we will craft a personalized song within 24–48 hours.' },
+        { question: 'How do I create a custom song for my wife?', answer: 'Simply fill out our song creation form with details about your relationship — how you met, special memories, what you love about her — and we will craft a personalized song within 24–3�5 business days.' },
         { question: 'What occasions are best for gifting a personalized song to my wife?', answer: 'Custom songs make incredible gifts for anniversaries, birthdays, Valentine\'s Day, Mother\'s Day, Christmas, or just because. Many husbands order songs simply to surprise their wife on an ordinary day.' },
         { question: 'Can I choose the music style for my wife\'s custom song?', answer: 'Absolutely! You can choose from pop, R&B/soul, acoustic, country, worship, cinematic, and more. You can also specify a male or female vocalist and share musical inspirations.' },
         { question: 'What if my wife doesn\'t like the song?', answer: 'We offer a 30-day money-back guarantee. If you\'re not completely satisfied, we\'ll work with you until it\'s perfect or issue a full refund.' },

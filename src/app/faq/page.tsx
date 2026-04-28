@@ -14,7 +14,7 @@ const faqs = [
   },
   {
     question: 'How long does delivery take?',
-    answer: 'Standard delivery is within 48 hours. We also offer a rush delivery option to get your song within 24 hours — perfect for last-minute gifts!',
+    answer: 'Standard delivery is 3–5 business days. We also offer an express delivery option to get your custom song in just 24 hours — perfect for last-minute gifts!',
   },
   {
     question: 'How will I receive my song?',

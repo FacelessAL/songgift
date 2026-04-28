@@ -3,7 +3,7 @@ import LandingPageTemplate from '@/components/LandingPageTemplate';
 
 export const metadata: Metadata = {
   title: 'Funny Song Gift | Custom Comedy & Roast Song | SongGift',
-  description: "Create a hilarious personalized funny song gift. We craft a custom comedy song perfect for birthdays, roasts, and parties. 24–48 hr delivery.",
+  description: "Create a hilarious personalized funny song gift. We craft a custom comedy song perfect for birthdays, roasts, and parties. 3–5 day delivery.",
   openGraph: { title: 'Funny Song Gift | Custom Comedy & Roast Song | SongGift', description: "Create a hilarious custom song that will have everyone in tears from laughing.", url: 'https://www.songgift.app/funny-song-gift' },
 };
 

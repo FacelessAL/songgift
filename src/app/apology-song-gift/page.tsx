@@ -3,7 +3,7 @@ import LandingPageTemplate from '@/components/LandingPageTemplate';
 
 export const metadata: Metadata = {
   title: 'Apology Song Gift | Custom Personalized Sorry Song | SongGift',
-  description: "Say sorry with a personalized apology song. We craft a custom song expressing your genuine remorse and love. 24–48 hr delivery.",
+  description: "Say sorry with a personalized apology song. We craft a custom song expressing your genuine remorse and love. 3–5 day delivery.",
   openGraph: { title: 'Apology Song Gift | Custom Personalized Sorry Song | SongGift', description: "Say sorry in the most meaningful way — with a custom apology song.", url: 'https://www.songgift.app/apology-song-gift' },
 };
 

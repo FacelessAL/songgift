@@ -76,8 +76,8 @@ export default function LandingPageTemplate({
 
   const defaultSeoTitle = `Everything You Need to Know About ${breadcrumbTitle}s`;
   const defaultSeoContent = `<p>At <strong>SongGift</strong>, we believe the most meaningful gifts come from the heart. A <strong>${breadcrumbTitle.toLowerCase()}</strong> is a custom-produced, one-of-a-kind song created from your real stories, memories, and emotions. We craft every note to capture the essence of your relationship.</p>
-<p>Whether you're looking for the perfect <strong>birthday gift</strong>, <strong>anniversary surprise</strong>, <strong>holiday present</strong>, or a spontaneous way to say "I love you," a personalized song from SongGift is the gift that keeps giving. Choose from genres like <strong>pop, acoustic, R&B, country, worship, rap, and cinematic</strong> — and receive your finished song in just <strong>24–48 hours</strong>.</p>
-<p>Every custom song comes with a <strong>30-day money-back guarantee</strong>, <strong>commercial usage rights</strong>, and <strong>digital delivery via email</strong> (MP3 & WAV). Express delivery is available for last-minute gifts. SongGift is the trusted choice for <strong>personalized music gifts</strong> that create unforgettable moments.</p>`;
+<p>Whether you're looking for the perfect <strong>birthday gift</strong>, <strong>anniversary surprise</strong>, <strong>holiday present</strong>, or a spontaneous way to say "I love you," a personalized song from SongGift is the gift that keeps giving. Choose from genres like <strong>pop, acoustic, R&B, country, worship, rap, and cinematic</strong> — and receive your finished song in just <strong>3–5 business days</strong> (or 24 hours with express delivery).</p>
+<p>Every custom song comes with a <strong>30-day money-back guarantee</strong>, <strong>commercial usage rights</strong>, and <strong>digital delivery via email</strong> (MP3 & WAV). Express delivery is available for last-minute gifts — get your song in just 24 hours! SongGift is the trusted choice for <strong>personalized music gifts</strong> that create unforgettable moments.</p>`;
 
   const resolvedSeoTitle = seoTitle || defaultSeoTitle;
   const resolvedSeoContent = seoContent || defaultSeoContent;
@@ -257,7 +257,7 @@ export default function LandingPageTemplate({
           <div className="flex flex-wrap items-center justify-center gap-8 sm:gap-12">
             <div className="flex items-center gap-2">
               <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-accent"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
-              <span className="text-sm text-text-dark font-medium">24–48 hour delivery</span>
+              <span className="text-sm text-text-dark font-medium">3–5 day delivery</span>
             </div>
             <div className="flex items-center gap-2">
               <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-accent"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><polyline points="9 12 12 15 16 10"/></svg>

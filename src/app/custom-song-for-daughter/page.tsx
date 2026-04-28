@@ -3,7 +3,7 @@ import LandingPageTemplate from '@/components/LandingPageTemplate';
 
 export const metadata: Metadata = {
   title: 'Custom Song for Daughter | Personalized Song Gift from Parents | SongGift',
-  description: "Create a personalized song for your daughter that captures your love and pride. Perfect for birthdays, graduations, weddings, sweet 16, or quinceañeras. We, 24–48 hr delivery.",
+  description: "Create a personalized song for your daughter that captures your love and pride. Perfect for birthdays, graduations, weddings, sweet 16, or quinceañeras. We, 3–5 day delivery.",
   openGraph: { title: 'Custom Song for Daughter | Personalized Song Gift | SongGift', description: 'Give your daughter a custom song that celebrates who she is. We, fast delivery.', url: 'https://www.songgift.app/custom-song-for-daughter' },
 };
 
@@ -44,7 +44,7 @@ export default function Page() {
       ]}
       seoTitle="Give Your Daughter a Gift She Will Treasure for a Lifetime"
       seoContent={`<p>A <strong>custom song for your daughter</strong> is the most meaningful gift a parent can give. Whether she's turning 16, graduating college, walking down the aisle, or you simply want her to know how proud you are, a <strong>personalized song</strong> says everything your heart feels — set to beautiful music.</p>
-<p>We take your words — her quirks, her dreams, your favorite memories — and transform them into a song she'll listen to for the rest of her life. Choose from <strong>pop, acoustic, worship, R&B, country</strong>, or cinematic styles. Every song is <strong>delivered in 24–48 hours</strong>.</p>
+<p>We take your words — her quirks, her dreams, your favorite memories — and transform them into a song she'll listen to for the rest of her life. Choose from <strong>pop, acoustic, worship, R&B, country</strong>, or cinematic styles. Every song is <strong>delivered in 24–3�5 business days</strong>.</p>
 <p>From <strong>daddy-daughter dance songs</strong> to <strong>birthday anthems</strong> to <strong>wedding day surprises</strong>, a personalized song for your daughter becomes a family heirloom that grows more meaningful with every passing year.</p>`}
       faqs={[
         { question: 'What occasions are custom songs for daughters popular for?', answer: 'Custom songs for daughters are incredibly popular for birthdays, sweet 16 celebrations, quinceañeras, graduations, weddings (especially father-daughter dances), and just-because moments.' },

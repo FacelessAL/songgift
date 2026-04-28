@@ -3,11 +3,12 @@ import { stripe } from '@/lib/stripe';
 
 const BASE_PRICE = 7900; // $79 in cents
 const EXPRESS_FEE = 3900; // $39 in cents
+const ALBUM_ART_FEE = 2000; // $20 in cents
 
 export async function POST(req: NextRequest) {
   try {
     const body = await req.json();
-    const { songData, express, coupon } = body;
+    const { songData, express, customAlbumArt, albumArtDescription, albumArtFileUploaded, coupon } = body;
 
     if (!songData?.email || !songData?.fullName) {
       return NextResponse.json({ error: 'Missing required fields' }, { status: 400 });
@@ -33,9 +34,23 @@ export async function POST(req: NextRequest) {
           currency: 'usd',
           product_data: {
             name: 'Express Delivery Upgrade',
-            description: 'Get your song delivered within 24 hours instead of 48 hours.',
+            description: 'Get your custom song in 24 hours instead of 3-5 business days.',
           },
           unit_amount: EXPRESS_FEE,
+        },
+        quantity: 1,
+      });
+    }
+
+    if (customAlbumArt) {
+      lineItems.push({
+        price_data: {
+          currency: 'usd',
+          product_data: {
+            name: 'Custom Album Art',
+            description: 'Hand-designed custom album artwork for your song.',
+          },
+          unit_amount: ALBUM_ART_FEE,
         },
         quantity: 1,
       });
@@ -57,6 +72,9 @@ export async function POST(req: NextRequest) {
       fullName: (songData.fullName || '').slice(0, 500),
       phone: (songData.phone || '').slice(0, 500),
       express: express ? 'true' : 'false',
+      customAlbumArt: customAlbumArt ? 'true' : 'false',
+      albumArtDescription: (albumArtDescription || '').slice(0, 500),
+      albumArtFileUploaded: albumArtFileUploaded ? 'true' : 'false',
       pronunciation: (songData.pronunciation || '').slice(0, 500),
       specialPhrases: (songData.specialPhrases || '').slice(0, 500),
       musicalInspiration: (songData.musicalInspiration || '').slice(0, 500),

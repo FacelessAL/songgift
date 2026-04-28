@@ -3,7 +3,7 @@ import LandingPageTemplate from '@/components/LandingPageTemplate';
 
 export const metadata: Metadata = {
   title: 'Custom Song for Brother | Personalized Song Gift for Siblings | SongGift',
-  description: "Create a personalized song for your brother that celebrates your bond. We, 24–48 hr delivery. Perfect for birthdays, weddings, or just because.",
+  description: "Create a personalized song for your brother that celebrates your bond. We, 3–5 day delivery. Perfect for birthdays, weddings, or just because.",
   openGraph: { title: 'Custom Song for Brother | Personalized Song Gift | SongGift', description: 'Celebrate your brother with a custom song made from your shared memories.', url: 'https://www.songgift.app/custom-song-for-brother' },
 };
 
@@ -45,7 +45,7 @@ export default function Page() {
       faqs={[
         { question: 'What is a unique gift for my brother?', answer: 'A custom song is one of the most unexpected and meaningful gifts for a brother. It celebrates your bond with personalized lyrics set to original music.' },
         { question: 'Can I make the song funny?', answer: 'Yes! Many siblings request funny, lighthearted songs that include inside jokes and roast-style humor. Just let us know the tone you want.' },
-        { question: 'How fast can I get a custom song for my brother?', answer: 'Standard delivery is 24–48 hours. Express delivery within 24 hours is available for an additional $39.' },
+        { question: 'How fast can I get a custom song for my brother?', answer: 'Standard delivery is 24–3�5 business days. Express delivery within 24 hours is available for an additional $39.' },
       ]}
     />
   );

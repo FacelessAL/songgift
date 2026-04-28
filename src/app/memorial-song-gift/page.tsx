@@ -3,7 +3,7 @@ import LandingPageTemplate from '@/components/LandingPageTemplate';
 
 export const metadata: Metadata = {
   title: 'Memorial Song Gift | Custom Tribute & Remembrance Song | SongGift',
-  description: "Honor a loved one's memory with a personalized memorial song. We craft a beautiful tribute song from your memories. 24–48 hr delivery.",
+  description: "Honor a loved one's memory with a personalized memorial song. We craft a beautiful tribute song from your memories. 3–5 day delivery.",
   openGraph: { title: 'Memorial Song Gift | Custom Tribute & Remembrance Song | SongGift', description: "Create a beautiful tribute song to honor someone you've lost.", url: 'https://www.songgift.app/memorial-song-gift' },
 };
 

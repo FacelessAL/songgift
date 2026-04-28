@@ -3,7 +3,7 @@ import LandingPageTemplate from '@/components/LandingPageTemplate';
 
 export const metadata: Metadata = {
   title: 'Baby Shower Song Gift | Custom Song for New Parents | SongGift',
-  description: "Create a personalized baby shower song gift for the parents-to-be. We craft a custom song welcoming the new baby. 24–48 hr delivery.",
+  description: "Create a personalized baby shower song gift for the parents-to-be. We craft a custom song welcoming the new baby. 3–5 day delivery.",
   openGraph: { title: 'Baby Shower Song Gift | Custom Song for New Parents | SongGift', description: "Welcome the new baby with a custom song made for the growing family.", url: 'https://www.songgift.app/baby-shower-song-gift' },
 };
 

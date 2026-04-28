@@ -3,7 +3,7 @@ import LandingPageTemplate from '@/components/LandingPageTemplate';
 
 export const metadata: Metadata = {
   title: "New Year's Song Gift | Custom Personalized New Year Song | SongGift",
-  description: "Ring in the New Year with a personalized song gift. We craft a custom song celebrating the year ahead. Perfect for New Year's Eve parties. 24–48 hr delivery.",
+  description: "Ring in the New Year with a personalized song gift. We craft a custom song celebrating the year ahead. Perfect for New Year's Eve parties. 3–5 day delivery.",
   openGraph: { title: "New Year's Song Gift | Custom Personalized New Year Song | SongGift", description: "Celebrate the New Year with a custom personalized song.", url: 'https://www.songgift.app/new-years-song-gift' },
 };
 

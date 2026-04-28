@@ -3,7 +3,7 @@ import LandingPageTemplate from '@/components/LandingPageTemplate';
 
 export const metadata: Metadata = {
   title: 'Graduation Song Gift | Custom Personalized Graduation Song | SongGift',
-  description: "Celebrate their graduation with a custom song gift. Perfect for high school, college, or any milestone graduation. We, 24–48 hr delivery.",
+  description: "Celebrate their graduation with a custom song gift. Perfect for high school, college, or any milestone graduation. We, 3–5 day delivery.",
   openGraph: { title: 'Graduation Song Gift | Custom Personalized Graduation Song | SongGift', description: "Celebrate their achievement with a personalized graduation song.", url: 'https://www.songgift.app/graduation-song-gift' },
 };
 
