@@ -29,6 +29,7 @@ const CUSTOM_FIELDS = {
   expressDelivery:    'JwONZHUbpNR7WymhRCvv',  // Express Delivery
   albumReferenceImage: 'lEjTkq3EGZ3HWbko0FTw',  // Album Reference Image (FILE_UPLOAD)
   customAlbumArt:      'rH3pvznrCuEITrq3AJwR',  // Custom Album Art (CHECKBOX)
+  albumArtDescription: 'lSD8FaPA1P4Jin9YviUB',  // Describe your vision (optional)
 } as const;
 
 interface GHLContactInput {
@@ -219,6 +220,9 @@ export async function processOrder(
   }
   if (order.customAlbumArt) {
     customData.customAlbumArt = ['Custom Album Art'];
+    if (order.albumArtDescription) {
+      customData.albumArtDescription = order.albumArtDescription;
+    }
   }
 
   // 3. Upsert contact with all data
