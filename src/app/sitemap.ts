@@ -51,6 +51,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { path: '/apology-song-gift', freq: 'monthly' as const, priority: 0.7 },
     { path: '/thank-you-song-gift', freq: 'monthly' as const, priority: 0.7 },
     { path: '/corporate-song-gift', freq: 'monthly' as const, priority: 0.7 },
+    // Blog
+    { path: '/blog', freq: 'weekly' as const, priority: 0.8 },
+    { path: '/blog/best-personalized-gift-ideas', freq: 'monthly' as const, priority: 0.8 },
+    { path: '/blog/how-custom-songs-are-made', freq: 'monthly' as const, priority: 0.8 },
+    { path: '/blog/custom-song-vs-traditional-gifts', freq: 'monthly' as const, priority: 0.8 },
+    { path: '/blog/occasions-for-custom-song-gift', freq: 'monthly' as const, priority: 0.8 },
+    { path: '/blog/how-to-write-a-song-brief', freq: 'monthly' as const, priority: 0.8 },
+    { path: '/blog/why-personalized-music-gifts', freq: 'monthly' as const, priority: 0.8 },
     // Utility pages
     { path: '/playlist', freq: 'weekly' as const, priority: 0.8 },
     { path: '/reviews', freq: 'weekly' as const, priority: 0.8 },

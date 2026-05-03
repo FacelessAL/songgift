@@ -84,6 +84,7 @@ export default function Header() {
     { href: '/reviews', label: 'Reviews' },
     { href: '/playlist', label: 'Playlist' },
     { href: '/faq', label: 'FAQ' },
+    { href: '/blog', label: 'Blog' },
     { href: '/contact', label: 'Contact' },
   ];
 
