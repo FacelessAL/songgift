@@ -1,0 +1,859 @@
+{
+  "articles": [
+    {
+      "slug": "best-personalized-gift-ideas",
+      "title": "Best Personalized Gift Ideas That Will Make Them Cry Happy Tears",
+      "description": "Discover the most meaningful personalized gifts for any occasion — from custom songs to engraved keepsakes — and learn why personal beats expensive every time.",
+      "tags": ["Gift Ideas", "Personalized Gifts"],
+      "publishDate": "2026-05-03",
+      "readTime": "10 min read",
+      "status": "published"
+    },
+    {
+      "slug": "how-custom-songs-are-made",
+      "title": "How Custom Songs Are Made — From Your Story to a Finished Track",
+      "description": "Ever wondered what goes into creating a personalized song? Walk through the entire process — from filling out a brief to receiving your finished track.",
+      "tags": ["Behind the Scenes", "Custom Songs"],
+      "publishDate": "2026-05-03",
+      "readTime": "10 min read",
+      "status": "published"
+    },
+    {
+      "slug": "custom-song-vs-traditional-gifts",
+      "title": "Custom Song vs Jewelry, Flowers & Other Gifts — An Honest Comparison",
+      "description": "We compare custom songs to traditional gifts like jewelry, flowers, and experiences. Discover which gift creates the biggest emotional impact per dollar.",
+      "tags": ["Comparison", "Gift Guide"],
+      "publishDate": "2026-05-03",
+      "readTime": "10 min read",
+      "status": "published"
+    },
+    {
+      "slug": "occasions-for-custom-song-gift",
+      "title": "10 Occasions That Absolutely Deserve a Custom Song Gift",
+      "description": "Birthdays, weddings, anniversaries, memorials, and more — explore the top occasions where a personalized song creates an unforgettable moment.",
+      "tags": ["Occasions", "Gift Ideas"],
+      "publishDate": "2026-05-03",
+      "readTime": "10 min read",
+      "status": "published"
+    },
+    {
+      "slug": "how-to-write-a-song-brief",
+      "title": "How to Write the Perfect Custom Song Brief — Tips, Examples & Mistakes to Avoid",
+      "description": "Your brief is the blueprint for your personalized song. Learn exactly what to include, see real examples, and avoid the most common mistakes people make.",
+      "tags": ["Tips & Guides", "How-To"],
+      "publishDate": "2026-05-03",
+      "readTime": "10 min read",
+      "status": "published"
+    },
+    {
+      "slug": "why-personalized-music-gifts",
+      "title": "Why Personalized Music Is the Most Meaningful Gift You Can Give",
+      "description": "The science and psychology behind why music triggers deeper emotions than any other gift — and how a custom song becomes a lifelong keepsake.",
+      "tags": ["Insights", "Personalized Gifts"],
+      "publishDate": "2026-05-03",
+      "readTime": "10 min read",
+      "status": "published"
+    },
+    {
+      "slug": "best-birthday-gift-ideas-for-someone-who-has-everything",
+      "title": "Best Birthday Gift Ideas for Someone Who Has Everything in 2026",
+      "description": "Struggling to find a gift for the person who already has it all? These 12 creative, meaningful birthday gift ideas go beyond material items.",
+      "tags": ["Gift Ideas", "Occasions"],
+      "publishDate": "2026-05-07",
+      "readTime": "9 min read",
+      "status": "scheduled"
+    },
+    {
+      "slug": "how-to-surprise-someone-with-a-custom-song",
+      "title": "How to Surprise Someone With a Custom Song — 7 Creative Reveal Ideas",
+      "description": "You ordered the custom song — now how do you present it for maximum impact? These 7 creative reveal ideas guarantee tears and unforgettable reactions.",
+      "tags": ["Tips & Guides", "Custom Songs"],
+      "publishDate": "2026-05-11",
+      "readTime": "8 min read",
+      "status": "scheduled"
+    },
+    {
+      "slug": "wedding-first-dance-song-ideas",
+      "title": "Wedding First Dance Song Ideas — Why a Custom Song Beats Every Cover",
+      "description": "Your first dance deserves more than a cover song. Learn how couples are choosing custom songs for their first dance and why it creates a more emotional moment.",
+      "tags": ["Occasions", "Custom Songs"],
+      "publishDate": "2026-05-15",
+      "readTime": "9 min read",
+      "status": "scheduled"
+    },
+    {
+      "slug": "anniversary-gift-ideas-by-year",
+      "title": "Anniversary Gift Ideas by Year — From Paper to Diamond (and Beyond)",
+      "description": "The complete guide to traditional and modern anniversary gifts by year — plus why a custom song works for every single one.",
+      "tags": ["Gift Guide", "Occasions"],
+      "publishDate": "2026-05-19",
+      "readTime": "10 min read",
+      "status": "scheduled"
+    },
+    {
+      "slug": "long-distance-relationship-gift-ideas",
+      "title": "15 Long-Distance Relationship Gift Ideas That Close the Gap",
+      "description": "Miles apart doesn't mean your gift can't hit close to the heart. These long-distance gift ideas bridge the gap with emotion and creativity.",
+      "tags": ["Gift Ideas", "Personalized Gifts"],
+      "publishDate": "2026-05-23",
+      "readTime": "9 min read",
+      "status": "scheduled"
+    },
+    {
+      "slug": "fathers-day-gift-guide-2026",
+      "title": "Father's Day Gift Guide 2026 — Gifts Dad Will Actually Love",
+      "description": "Forget the ties and gift cards. This Father's Day gift guide focuses on meaningful, personalized gifts that show Dad how much he really means to you.",
+      "tags": ["Gift Guide", "Occasions"],
+      "publishDate": "2026-05-27",
+      "readTime": "9 min read",
+      "status": "scheduled"
+    },
+    {
+      "slug": "memorial-tribute-ideas",
+      "title": "Beautiful Memorial Tribute Ideas — Honoring a Loved One Through Music",
+      "description": "When words aren't enough, music speaks. Explore meaningful ways to honor someone who's passed — including custom memorial songs that celebrate their legacy.",
+      "tags": ["Insights", "Occasions"],
+      "publishDate": "2026-05-31",
+      "readTime": "10 min read",
+      "status": "scheduled"
+    },
+    {
+      "slug": "graduation-gift-ideas-2026",
+      "title": "Graduation Gift Ideas 2026 — Celebrate Their Achievement in Style",
+      "description": "They worked hard to get here. These graduation gift ideas go beyond cash in a card — with personalized options that acknowledge the journey, not just the finish line.",
+      "tags": ["Gift Ideas", "Occasions"],
+      "publishDate": "2026-06-04",
+      "readTime": "8 min read",
+      "status": "scheduled"
+    },
+    {
+      "slug": "what-makes-a-gift-meaningful",
+      "title": "What Actually Makes a Gift Meaningful? The Psychology of Thoughtful Giving",
+      "description": "Price doesn't equal meaning. Explore the psychology research behind what makes certain gifts unforgettable — and how to apply it to your next occasion.",
+      "tags": ["Insights", "Personalized Gifts"],
+      "publishDate": "2026-06-08",
+      "readTime": "10 min read",
+      "status": "scheduled"
+    },
+    {
+      "slug": "romantic-gift-ideas-for-her",
+      "title": "Romantic Gift Ideas for Her — 10 Gifts That Say More Than Flowers",
+      "description": "Looking for a gift that makes her feel truly seen? These romantic gift ideas go beyond the obvious — with options that tell your unique love story.",
+      "tags": ["Gift Ideas", "Gift Guide"],
+      "publishDate": "2026-06-12",
+      "readTime": "9 min read",
+      "status": "scheduled"
+    },
+    {
+      "slug": "unique-gifts-for-men-who-have-everything",
+      "title": "Unique Gifts for Men Who Have Everything — 2026 Edition",
+      "description": "He says he doesn't want anything. These unique, personalized gift ideas prove there's always something meaningful left to give.",
+      "tags": ["Gift Ideas", "Gift Guide"],
+      "publishDate": "2026-06-16",
+      "readTime": "9 min read",
+      "status": "scheduled"
+    },
+    {
+      "slug": "how-music-triggers-memories",
+      "title": "How Music Triggers Memories — The Science Behind Nostalgic Songs",
+      "description": "Why does a certain song instantly transport you back in time? Explore the neuroscience of musical memory and how custom songs tap into this phenomenon.",
+      "tags": ["Insights", "Behind the Scenes"],
+      "publishDate": "2026-06-20",
+      "readTime": "10 min read",
+      "status": "scheduled"
+    },
+    {
+      "slug": "mothers-day-gift-guide-2026",
+      "title": "Mother's Day Gift Guide 2026 — Gifts That Match Her Love",
+      "description": "She's given you everything. This Mother's Day gift guide features meaningful gifts that honor her sacrifices, her love, and the memories you've shared.",
+      "tags": ["Gift Guide", "Occasions"],
+      "publishDate": "2026-06-24",
+      "readTime": "9 min read",
+      "status": "scheduled"
+    },
+    {
+      "slug": "best-retirement-gift-ideas",
+      "title": "Best Retirement Gift Ideas — Celebrate a Career and a New Beginning",
+      "description": "Retirement is one of life's biggest transitions. These gift ideas honor decades of hard work with something more meaningful than a gold watch.",
+      "tags": ["Gift Ideas", "Occasions"],
+      "publishDate": "2026-06-28",
+      "readTime": "9 min read",
+      "status": "scheduled"
+    },
+    {
+      "slug": "baby-shower-gift-ideas-that-stand-out",
+      "title": "Baby Shower Gift Ideas That Stand Out From the Registry",
+      "description": "Skip the tenth onesie. These creative baby shower gift ideas celebrate the parents-to-be with personalized, memorable options they'll actually cherish.",
+      "tags": ["Gift Ideas", "Occasions"],
+      "publishDate": "2026-07-02",
+      "readTime": "8 min read",
+      "status": "scheduled"
+    },
+    {
+      "slug": "how-to-choose-the-right-song-genre",
+      "title": "How to Choose the Right Genre for Your Custom Song",
+      "description": "Pop, acoustic, R&B, country, or cinematic? This guide helps you pick the perfect genre to match the mood, occasion, and personality of your recipient.",
+      "tags": ["Tips & Guides", "Custom Songs"],
+      "publishDate": "2026-07-06",
+      "readTime": "8 min read",
+      "status": "scheduled"
+    },
+    {
+      "slug": "sentimental-gifts-that-make-people-cry",
+      "title": "12 Sentimental Gifts That Will Make Anyone Cry Happy Tears",
+      "description": "Want to give a gift that triggers an emotional reaction? These 12 sentimental gift ideas are proven tear-jerkers — in the best possible way.",
+      "tags": ["Gift Ideas", "Personalized Gifts"],
+      "publishDate": "2026-07-10",
+      "readTime": "9 min read",
+      "status": "scheduled"
+    },
+    {
+      "slug": "custom-song-for-wedding-party",
+      "title": "Custom Songs for Your Wedding Party — Best Man, Maid of Honor & More",
+      "description": "Surprise the bride and groom with a custom song from the wedding party. Learn how best men, maids of honor, and parents are using personalized music.",
+      "tags": ["Occasions", "Custom Songs"],
+      "publishDate": "2026-07-14",
+      "readTime": "9 min read",
+      "status": "scheduled"
+    },
+    {
+      "slug": "digital-gifts-vs-physical-gifts",
+      "title": "Digital Gifts vs Physical Gifts — Which Creates More Emotional Impact?",
+      "description": "In the age of digital everything, do physical gifts still win? We compare emotional impact, longevity, and value of digital vs physical gift categories.",
+      "tags": ["Comparison", "Insights"],
+      "publishDate": "2026-07-18",
+      "readTime": "9 min read",
+      "status": "scheduled"
+    },
+    {
+      "slug": "christmas-gift-ideas-you-can-plan-early",
+      "title": "Christmas Gift Ideas You Can Plan Early — Get Ahead of the Holiday Rush",
+      "description": "The best Christmas gifts aren't last-minute. Start planning now with these meaningful, personalized gift ideas that take time but deliver maximum impact.",
+      "tags": ["Gift Ideas", "Occasions"],
+      "publishDate": "2026-07-22",
+      "readTime": "9 min read",
+      "status": "scheduled"
+    },
+    {
+      "slug": "friendship-gift-ideas-for-your-best-friend",
+      "title": "Friendship Gift Ideas — How to Show Your Best Friend They Matter",
+      "description": "Best friends deserve more than a gift card. These creative friendship gift ideas celebrate your bond with humor, nostalgia, and genuine emotion.",
+      "tags": ["Gift Ideas", "Personalized Gifts"],
+      "publishDate": "2026-07-26",
+      "readTime": "8 min read",
+      "status": "scheduled"
+    },
+    {
+      "slug": "proposal-ideas-with-custom-music",
+      "title": "Proposal Ideas With Custom Music — Make the Moment Unforgettable",
+      "description": "Planning a proposal? Adding a custom song transforms the moment from special to legendary. These creative proposal ideas incorporate personalized music.",
+      "tags": ["Occasions", "Custom Songs"],
+      "publishDate": "2026-07-30",
+      "readTime": "9 min read",
+      "status": "scheduled"
+    },
+    {
+      "slug": "gift-ideas-for-parents-who-have-everything",
+      "title": "Gift Ideas for Parents Who Have Everything — 2026 Guide",
+      "description": "Your parents say they don't need anything. These emotionally rich gift ideas prove the best gifts aren't things — they're experiences and stories.",
+      "tags": ["Gift Ideas", "Gift Guide"],
+      "publishDate": "2026-08-03",
+      "readTime": "9 min read",
+      "status": "scheduled"
+    },
+    {
+      "slug": "how-to-write-a-love-letter-in-2026",
+      "title": "How to Write a Love Letter in 2026 — Or Better Yet, Sing It",
+      "description": "Love letters are timeless, but a love song is forever. Learn how to express your deepest feelings in words — and then turn them into music.",
+      "tags": ["Tips & Guides", "Personalized Gifts"],
+      "publishDate": "2026-08-07",
+      "readTime": "9 min read",
+      "status": "scheduled"
+    },
+    {
+      "slug": "creative-ways-to-say-thank-you",
+      "title": "Creative Ways to Say Thank You — Beyond the Card",
+      "description": "A thank-you card is nice. A thank-you song is unforgettable. Discover creative ways to express gratitude that leave a lasting impression.",
+      "tags": ["Tips & Guides", "Gift Ideas"],
+      "publishDate": "2026-08-11",
+      "readTime": "8 min read",
+      "status": "scheduled"
+    },
+    {
+      "slug": "personalized-gifts-for-grandparents",
+      "title": "Personalized Gifts for Grandparents — Celebrate the People Who Shaped You",
+      "description": "Grandparents deserve gifts that honor their love, wisdom, and impact. These personalized gift ideas celebrate the relationship that means everything.",
+      "tags": ["Gift Ideas", "Personalized Gifts"],
+      "publishDate": "2026-08-15",
+      "readTime": "9 min read",
+      "status": "scheduled"
+    },
+    {
+      "slug": "funny-custom-song-ideas",
+      "title": "Funny Custom Song Ideas — When You Want to Make Them Laugh and Cry",
+      "description": "Custom songs don't have to be serious. These hilarious custom song ideas prove that humor and emotion make the perfect combination.",
+      "tags": ["Custom Songs", "Tips & Guides"],
+      "publishDate": "2026-08-19",
+      "readTime": "8 min read",
+      "status": "scheduled"
+    },
+    {
+      "slug": "last-minute-gift-ideas-that-dont-feel-rushed",
+      "title": "Last-Minute Gift Ideas That Don't Feel Rushed",
+      "description": "Forgot the occasion? These last-minute gift ideas deliver fast without sacrificing meaning — including 24-hour custom song delivery.",
+      "tags": ["Gift Ideas", "Gift Guide"],
+      "publishDate": "2026-08-23",
+      "readTime": "8 min read",
+      "status": "scheduled"
+    },
+    {
+      "slug": "pet-tribute-songs-and-memorial-ideas",
+      "title": "Pet Tribute Songs & Memorial Ideas — Honoring Your Furry Best Friend",
+      "description": "Losing a pet is heartbreaking. These memorial ideas — including custom tribute songs — help you honor the unconditional love they gave you.",
+      "tags": ["Occasions", "Insights"],
+      "publishDate": "2026-08-27",
+      "readTime": "9 min read",
+      "status": "scheduled"
+    },
+    {
+      "slug": "how-to-pick-the-perfect-gift-every-time",
+      "title": "How to Pick the Perfect Gift Every Time — A Framework",
+      "description": "Stop guessing. This simple gift-picking framework helps you choose meaningful presents based on the recipient's personality, love language, and your relationship.",
+      "tags": ["Tips & Guides", "Gift Guide"],
+      "publishDate": "2026-08-31",
+      "readTime": "10 min read",
+      "status": "scheduled"
+    },
+    {
+      "slug": "engagement-party-gift-ideas",
+      "title": "Engagement Party Gift Ideas — Celebrate Their New Chapter",
+      "description": "The engagement party gift shouldn't compete with the wedding. These thoughtful ideas celebrate the couple's journey so far with personalized meaning.",
+      "tags": ["Occasions", "Gift Ideas"],
+      "publishDate": "2026-09-04",
+      "readTime": "8 min read",
+      "status": "scheduled"
+    },
+    {
+      "slug": "the-art-of-giving-experiences-over-things",
+      "title": "The Art of Giving Experiences Over Things — Why Memory Beats Material",
+      "description": "Research shows experiential gifts create more happiness than material ones. Learn the science and discover the best experience-based gift ideas.",
+      "tags": ["Insights", "Comparison"],
+      "publishDate": "2026-09-08",
+      "readTime": "10 min read",
+      "status": "scheduled"
+    },
+    {
+      "slug": "thanksgiving-gift-ideas-for-hosts",
+      "title": "Thanksgiving Gift Ideas for Hosts — Show Gratitude to the Chef",
+      "description": "Don't show up empty-handed. These Thanksgiving host gift ideas express genuine gratitude for the person who made the feast possible.",
+      "tags": ["Gift Ideas", "Occasions"],
+      "publishDate": "2026-09-12",
+      "readTime": "8 min read",
+      "status": "scheduled"
+    },
+    {
+      "slug": "custom-song-as-wedding-gift",
+      "title": "A Custom Song as a Wedding Gift — The Complete Guide",
+      "description": "Thinking of gifting the couple a custom song? This guide covers timing, how to gather details secretly, genre selection, and the perfect reveal.",
+      "tags": ["Custom Songs", "Occasions"],
+      "publishDate": "2026-09-16",
+      "readTime": "10 min read",
+      "status": "scheduled"
+    },
+    {
+      "slug": "valentines-day-gift-ideas-beyond-chocolate",
+      "title": "Valentine's Day Gift Ideas Beyond Chocolate and Flowers",
+      "description": "Roses die. Chocolate gets eaten. These Valentine's Day gift ideas create lasting memories that say 'I love you' louder than any box of truffles.",
+      "tags": ["Gift Ideas", "Occasions"],
+      "publishDate": "2026-09-20",
+      "readTime": "9 min read",
+      "status": "scheduled"
+    },
+    {
+      "slug": "gift-ideas-for-teachers-2026",
+      "title": "Gift Ideas for Teachers 2026 — Honoring the People Who Shape Futures",
+      "description": "Teachers rarely get the recognition they deserve. These meaningful gift ideas show appreciation that goes far beyond another coffee mug.",
+      "tags": ["Gift Ideas", "Personalized Gifts"],
+      "publishDate": "2026-09-24",
+      "readTime": "8 min read",
+      "status": "scheduled"
+    },
+    {
+      "slug": "how-personalized-gifts-strengthen-relationships",
+      "title": "How Personalized Gifts Strengthen Relationships — The Research",
+      "description": "Personalized gifts don't just make people smile — they deepen emotional bonds. Explore the relationship science behind thoughtful, customized giving.",
+      "tags": ["Insights", "Personalized Gifts"],
+      "publishDate": "2026-09-28",
+      "readTime": "10 min read",
+      "status": "scheduled"
+    },
+    {
+      "slug": "sweet-16-gift-ideas",
+      "title": "Sweet 16 Gift Ideas — Celebrate This Milestone Birthday in Style",
+      "description": "Turning 16 is a big deal. These creative Sweet 16 gift ideas make the birthday girl feel celebrated with something truly personal and unforgettable.",
+      "tags": ["Occasions", "Gift Ideas"],
+      "publishDate": "2026-10-02",
+      "readTime": "8 min read",
+      "status": "scheduled"
+    },
+    {
+      "slug": "quinceanera-gift-ideas-2026",
+      "title": "Quinceañera Gift Ideas 2026 — Meaningful Gifts for Her Special Day",
+      "description": "A quinceañera celebrates heritage, family, and growing up. These gift ideas honor the tradition with something deeply personal and culturally meaningful.",
+      "tags": ["Occasions", "Gift Ideas"],
+      "publishDate": "2026-10-06",
+      "readTime": "9 min read",
+      "status": "scheduled"
+    },
+    {
+      "slug": "couples-gift-ideas",
+      "title": "Couples Gift Ideas — Gifts They'll Both Love",
+      "description": "Shopping for a couple? These joint gift ideas celebrate their relationship without forcing you to pick sides. Perfect for weddings, anniversaries, and holidays.",
+      "tags": ["Gift Ideas", "Gift Guide"],
+      "publishDate": "2026-10-10",
+      "readTime": "8 min read",
+      "status": "scheduled"
+    },
+    {
+      "slug": "corporate-gift-ideas-for-employees",
+      "title": "Corporate Gift Ideas for Employees — Recognition That Resonates",
+      "description": "Generic corporate gifts end up in desk drawers. These meaningful employee gift ideas show genuine appreciation and boost team morale.",
+      "tags": ["Gift Ideas", "Occasions"],
+      "publishDate": "2026-10-14",
+      "readTime": "9 min read",
+      "status": "scheduled"
+    },
+    {
+      "slug": "halloween-party-playlist-and-song-ideas",
+      "title": "Halloween Party Playlist & Custom Song Ideas for 2026",
+      "description": "Planning a Halloween party? Build the ultimate playlist and discover how custom comedy and spooky songs can make your celebration unforgettable.",
+      "tags": ["Occasions", "Custom Songs"],
+      "publishDate": "2026-10-18",
+      "readTime": "8 min read",
+      "status": "scheduled"
+    },
+    {
+      "slug": "how-to-celebrate-milestones-meaningfully",
+      "title": "How to Celebrate Life Milestones Meaningfully — A Thoughtful Guide",
+      "description": "Milestones deserve more than a party. Learn how to mark life's biggest moments with intention, gratitude, and gifts that capture the significance.",
+      "tags": ["Tips & Guides", "Insights"],
+      "publishDate": "2026-10-22",
+      "readTime": "10 min read",
+      "status": "scheduled"
+    },
+    {
+      "slug": "gifts-that-appreciate-in-value",
+      "title": "Gifts That Appreciate in Value — Emotional ROI Over Time",
+      "description": "Some gifts lose value the moment they're opened. Others grow more meaningful with every passing year. Learn which gifts deliver the highest emotional ROI.",
+      "tags": ["Insights", "Comparison"],
+      "publishDate": "2026-10-26",
+      "readTime": "9 min read",
+      "status": "scheduled"
+    },
+    {
+      "slug": "new-years-gift-ideas-and-traditions",
+      "title": "New Year's Gift Ideas & Traditions to Start 2027 Right",
+      "description": "Ring in the new year with meaningful gifts and traditions that set the tone for the months ahead. Fresh starts deserve fresh thinking.",
+      "tags": ["Occasions", "Gift Ideas"],
+      "publishDate": "2026-10-30",
+      "readTime": "8 min read",
+      "status": "scheduled"
+    },
+    {
+      "slug": "why-music-is-the-universal-language-of-emotion",
+      "title": "Why Music Is the Universal Language of Emotion",
+      "description": "Music transcends words, culture, and time. Explore why music communicates emotions more effectively than any other medium — and what that means for gifting.",
+      "tags": ["Insights", "Behind the Scenes"],
+      "publishDate": "2026-11-03",
+      "readTime": "10 min read",
+      "status": "scheduled"
+    },
+    {
+      "slug": "apology-gift-ideas",
+      "title": "Apology Gift Ideas — How to Say Sorry and Actually Mean It",
+      "description": "When words aren't enough, a thoughtful apology gift can help mend a relationship. These ideas go beyond flowers to show genuine remorse and commitment.",
+      "tags": ["Gift Ideas", "Tips & Guides"],
+      "publishDate": "2026-11-07",
+      "readTime": "8 min read",
+      "status": "scheduled"
+    },
+    {
+      "slug": "gift-ideas-for-siblings",
+      "title": "Gift Ideas for Siblings — Celebrate Your Built-In Best Friend",
+      "description": "Brothers and sisters share a bond like no other. These gift ideas honor the childhood memories, inside jokes, and unbreakable connection between siblings.",
+      "tags": ["Gift Ideas", "Personalized Gifts"],
+      "publishDate": "2026-11-11",
+      "readTime": "8 min read",
+      "status": "scheduled"
+    },
+    {
+      "slug": "what-to-write-in-a-card-for-every-occasion",
+      "title": "What to Write in a Card for Every Occasion — A Heartfelt Guide",
+      "description": "Staring at a blank card? These templates and tips for every occasion help you find the right words — or inspire you to put them in a song instead.",
+      "tags": ["Tips & Guides", "Gift Guide"],
+      "publishDate": "2026-11-15",
+      "readTime": "9 min read",
+      "status": "scheduled"
+    },
+    {
+      "slug": "christmas-gift-guide-2026",
+      "title": "Christmas Gift Guide 2026 — Meaningful Presents Under the Tree",
+      "description": "This Christmas gift guide focuses on quality over quantity — with personalized, heartfelt gift ideas that make the holidays truly special.",
+      "tags": ["Gift Guide", "Occasions"],
+      "publishDate": "2026-11-19",
+      "readTime": "10 min read",
+      "status": "scheduled"
+    },
+    {
+      "slug": "how-to-make-someone-feel-special-on-their-birthday",
+      "title": "How to Make Someone Feel Truly Special on Their Birthday",
+      "description": "A great birthday isn't about the price tag. These ideas help you make anyone's birthday feel like a genuine celebration of who they are.",
+      "tags": ["Tips & Guides", "Occasions"],
+      "publishDate": "2026-11-23",
+      "readTime": "8 min read",
+      "status": "scheduled"
+    },
+    {
+      "slug": "best-gifts-for-music-lovers",
+      "title": "Best Gifts for Music Lovers — 2026 Edition",
+      "description": "Know someone who lives and breathes music? These gift ideas speak their language — from custom songs to curated experiences that hit every note.",
+      "tags": ["Gift Ideas", "Custom Songs"],
+      "publishDate": "2026-11-27",
+      "readTime": "9 min read",
+      "status": "scheduled"
+    },
+    {
+      "slug": "easter-gift-ideas-beyond-baskets",
+      "title": "Easter Gift Ideas Beyond Baskets — Celebrate With Meaning",
+      "description": "Easter gifts don't have to be chocolate bunnies and plastic eggs. These meaningful alternatives celebrate renewal, family, and togetherness.",
+      "tags": ["Occasions", "Gift Ideas"],
+      "publishDate": "2026-12-01",
+      "readTime": "8 min read",
+      "status": "scheduled"
+    },
+    {
+      "slug": "gift-giving-love-language",
+      "title": "Gift Giving as a Love Language — Understanding and Mastering It",
+      "description": "For some people, gifts ARE love. Learn how to speak the gift-giving love language fluently — with ideas that prove you truly understand your person.",
+      "tags": ["Insights", "Tips & Guides"],
+      "publishDate": "2026-12-05",
+      "readTime": "10 min read",
+      "status": "scheduled"
+    },
+    {
+      "slug": "surprise-party-planning-guide",
+      "title": "Surprise Party Planning Guide — Including the Perfect Musical Reveal",
+      "description": "Planning a surprise party? This step-by-step guide covers everything from guest coordination to the ultimate reveal — a custom song debut.",
+      "tags": ["Tips & Guides", "Occasions"],
+      "publishDate": "2026-12-09",
+      "readTime": "9 min read",
+      "status": "scheduled"
+    },
+    {
+      "slug": "personalized-gifts-vs-expensive-gifts",
+      "title": "Personalized Gifts vs Expensive Gifts — What Actually Matters More?",
+      "description": "Does spending more mean a better gift? Research says no. This deep dive explores why personalization consistently outperforms price tag in gift satisfaction.",
+      "tags": ["Comparison", "Insights"],
+      "publishDate": "2026-12-13",
+      "readTime": "10 min read",
+      "status": "scheduled"
+    },
+    {
+      "slug": "gifts-for-people-going-through-tough-times",
+      "title": "Gifts for People Going Through Tough Times — Show You Care",
+      "description": "When someone you love is struggling, the right gift can be a lifeline. These compassionate gift ideas show support without overstepping.",
+      "tags": ["Gift Ideas", "Insights"],
+      "publishDate": "2026-12-17",
+      "readTime": "9 min read",
+      "status": "scheduled"
+    },
+    {
+      "slug": "how-to-celebrate-your-parents-anniversary",
+      "title": "How to Celebrate Your Parents' Anniversary — Ideas They'll Love",
+      "description": "Your parents' love story deserves celebrating. These anniversary gift and celebration ideas honor the couple who started it all.",
+      "tags": ["Occasions", "Tips & Guides"],
+      "publishDate": "2026-12-21",
+      "readTime": "8 min read",
+      "status": "scheduled"
+    },
+    {
+      "slug": "the-history-of-personalized-gifts",
+      "title": "The History of Personalized Gifts — From Monograms to Custom Songs",
+      "description": "Personalized gifts have evolved dramatically over centuries. Trace the journey from engraved rings to custom AI-assisted music and what's next.",
+      "tags": ["Insights", "Behind the Scenes"],
+      "publishDate": "2026-12-25",
+      "readTime": "10 min read",
+      "status": "scheduled"
+    },
+    {
+      "slug": "new-baby-gift-ideas-for-new-parents",
+      "title": "New Baby Gift Ideas for New Parents — Beyond the Registry",
+      "description": "New parents are drowning in diapers. These thoughtful gift ideas support them emotionally with personalized keepsakes they'll treasure for life.",
+      "tags": ["Gift Ideas", "Occasions"],
+      "publishDate": "2026-12-29",
+      "readTime": "8 min read",
+      "status": "scheduled"
+    },
+    {
+      "slug": "custom-song-genres-explained",
+      "title": "Custom Song Genres Explained — Pop, Country, R&B, Acoustic & More",
+      "description": "Not sure which genre to pick? This comprehensive guide breaks down every available genre with examples, mood descriptions, and occasion recommendations.",
+      "tags": ["Custom Songs", "Tips & Guides"],
+      "publishDate": "2027-01-02",
+      "readTime": "10 min read",
+      "status": "scheduled"
+    },
+    {
+      "slug": "birthday-song-ideas-for-every-age",
+      "title": "Birthday Song Ideas for Every Age — From Kids to Centenarians",
+      "description": "A custom birthday song works at every age — but the approach changes. Learn how to tailor the brief, genre, and tone for kids, teens, adults, and seniors.",
+      "tags": ["Occasions", "Custom Songs"],
+      "publishDate": "2027-01-06",
+      "readTime": "9 min read",
+      "status": "scheduled"
+    },
+    {
+      "slug": "why-handmade-gifts-mean-more",
+      "title": "Why Handmade & Handcrafted Gifts Mean More Than Store-Bought",
+      "description": "There's magic in something made with intention. Explore why handmade and custom-crafted gifts consistently outperform mass-produced alternatives.",
+      "tags": ["Insights", "Personalized Gifts"],
+      "publishDate": "2027-01-10",
+      "readTime": "9 min read",
+      "status": "scheduled"
+    },
+    {
+      "slug": "fourth-of-july-celebration-ideas",
+      "title": "Fourth of July Celebration Ideas — Patriotic, Personal, and Fun",
+      "description": "Make Independence Day more than fireworks. These celebration ideas add personal touches that make July 4th memorable for your family and friends.",
+      "tags": ["Occasions", "Gift Ideas"],
+      "publishDate": "2027-01-14",
+      "readTime": "8 min read",
+      "status": "scheduled"
+    },
+    {
+      "slug": "gifts-that-tell-a-story",
+      "title": "Gifts That Tell a Story — Why Narrative-Driven Presents Win Every Time",
+      "description": "The best gifts have a story behind them. Learn how to choose and create gifts that carry meaning, context, and emotional narrative.",
+      "tags": ["Insights", "Gift Guide"],
+      "publishDate": "2027-01-18",
+      "readTime": "10 min read",
+      "status": "scheduled"
+    },
+    {
+      "slug": "anniversary-surprise-ideas",
+      "title": "Anniversary Surprise Ideas — How to Catch Your Partner Off Guard",
+      "description": "Planning an anniversary surprise? These creative ideas — from scavenger hunts to custom song reveals — make the celebration truly unforgettable.",
+      "tags": ["Occasions", "Tips & Guides"],
+      "publishDate": "2027-01-22",
+      "readTime": "9 min read",
+      "status": "scheduled"
+    },
+    {
+      "slug": "gift-ideas-under-100-dollars",
+      "title": "Gift Ideas Under $100 That Feel Like a Million Bucks",
+      "description": "You don't need a big budget to give a big gift. These meaningful options under $100 prove that thoughtfulness always trumps price tag.",
+      "tags": ["Gift Ideas", "Gift Guide"],
+      "publishDate": "2027-01-26",
+      "readTime": "8 min read",
+      "status": "scheduled"
+    },
+    {
+      "slug": "how-to-gift-a-custom-song-remotely",
+      "title": "How to Gift a Custom Song Remotely — Perfect for Long-Distance Love",
+      "description": "Miles apart? A digital custom song bridges any distance. Learn the best ways to order, deliver, and reveal a personalized song from afar.",
+      "tags": ["Custom Songs", "Tips & Guides"],
+      "publishDate": "2027-01-30",
+      "readTime": "8 min read",
+      "status": "scheduled"
+    },
+    {
+      "slug": "emotional-intelligence-and-gift-giving",
+      "title": "Emotional Intelligence and Gift Giving — Why EQ Matters More Than Budget",
+      "description": "The best gift-givers aren't the wealthiest — they're the most emotionally intelligent. Learn how EQ shapes meaningful giving.",
+      "tags": ["Insights", "Tips & Guides"],
+      "publishDate": "2027-02-03",
+      "readTime": "10 min read",
+      "status": "scheduled"
+    },
+    {
+      "slug": "custom-songs-for-corporate-events",
+      "title": "Custom Songs for Corporate Events — Team Building Through Music",
+      "description": "Custom songs aren't just for personal occasions. Discover how businesses use personalized music for team events, awards, and company milestones.",
+      "tags": ["Custom Songs", "Occasions"],
+      "publishDate": "2027-02-07",
+      "readTime": "9 min read",
+      "status": "scheduled"
+    },
+    {
+      "slug": "best-gifts-for-newlyweds",
+      "title": "Best Gifts for Newlyweds — Starting Married Life With Meaning",
+      "description": "The wedding is over, but the gift-giving doesn't have to stop. These newlywed gift ideas celebrate the beginning of their married journey.",
+      "tags": ["Gift Ideas", "Occasions"],
+      "publishDate": "2027-02-11",
+      "readTime": "8 min read",
+      "status": "scheduled"
+    },
+    {
+      "slug": "how-to-make-a-memorial-video-with-music",
+      "title": "How to Make a Memorial Video With Custom Music",
+      "description": "A memorial video with a custom song soundtrack creates a powerful tribute. This guide covers planning, photo selection, and pairing music with memories.",
+      "tags": ["Tips & Guides", "Behind the Scenes"],
+      "publishDate": "2027-02-15",
+      "readTime": "10 min read",
+      "status": "scheduled"
+    },
+    {
+      "slug": "why-experiences-make-better-gifts-than-things",
+      "title": "Why Experiences Make Better Gifts Than Things — The Complete Evidence",
+      "description": "Decades of happiness research point to one conclusion: experiences beat things. This article presents the evidence and the best experiential gift ideas.",
+      "tags": ["Insights", "Comparison"],
+      "publishDate": "2027-02-19",
+      "readTime": "10 min read",
+      "status": "scheduled"
+    },
+    {
+      "slug": "st-patricks-day-gift-ideas",
+      "title": "St. Patrick's Day Gift Ideas — Lucky Gifts for Your Favorite People",
+      "description": "Celebrate the luck of the Irish with creative St. Patrick's Day gift ideas that go beyond green beer and shamrock socks.",
+      "tags": ["Occasions", "Gift Ideas"],
+      "publishDate": "2027-02-23",
+      "readTime": "7 min read",
+      "status": "scheduled"
+    },
+    {
+      "slug": "the-psychology-of-surprise-gifts",
+      "title": "The Psychology of Surprise Gifts — Why Unexpected Presents Hit Harder",
+      "description": "Surprise gifts create stronger emotional reactions than expected ones. Explore the psychology behind unexpected giving and how to maximize the moment.",
+      "tags": ["Insights", "Tips & Guides"],
+      "publishDate": "2027-02-27",
+      "readTime": "9 min read",
+      "status": "scheduled"
+    },
+    {
+      "slug": "best-gifts-for-college-students",
+      "title": "Best Gifts for College Students — Practical, Personal, and Appreciated",
+      "description": "College students need more than care packages. These gift ideas balance practicality with personal meaning — perfect for birthdays, holidays, or just because.",
+      "tags": ["Gift Ideas", "Gift Guide"],
+      "publishDate": "2027-03-03",
+      "readTime": "8 min read",
+      "status": "scheduled"
+    },
+    {
+      "slug": "custom-song-revision-tips",
+      "title": "Custom Song Revision Tips — How to Get Your Song Exactly Right",
+      "description": "Not 100% happy with the first draft? These revision tips help you communicate feedback effectively so your final song is absolutely perfect.",
+      "tags": ["Custom Songs", "Tips & Guides"],
+      "publishDate": "2027-03-07",
+      "readTime": "8 min read",
+      "status": "scheduled"
+    },
+    {
+      "slug": "gifts-that-show-you-listen",
+      "title": "Gifts That Show You Listen — The Ultimate Sign of Caring",
+      "description": "The most meaningful gifts reference something the recipient mentioned months ago. Learn how to become the kind of gift-giver who truly listens.",
+      "tags": ["Insights", "Personalized Gifts"],
+      "publishDate": "2027-03-11",
+      "readTime": "9 min read",
+      "status": "scheduled"
+    },
+    {
+      "slug": "spring-celebration-ideas",
+      "title": "Spring Celebration Ideas — Fresh Starts Deserve Fresh Thinking",
+      "description": "Spring is the season of renewal. These celebration ideas capture the energy of new beginnings with creative, meaningful ways to mark the season.",
+      "tags": ["Occasions", "Gift Ideas"],
+      "publishDate": "2027-03-15",
+      "readTime": "8 min read",
+      "status": "scheduled"
+    },
+    {
+      "slug": "the-complete-guide-to-personalized-gifts-2026",
+      "title": "The Complete Guide to Personalized Gifts in 2026",
+      "description": "Everything you need to know about personalized gifts — from choosing the right type to making it unforgettable. The definitive resource for thoughtful giving.",
+      "tags": ["Gift Guide", "Personalized Gifts"],
+      "publishDate": "2027-03-19",
+      "readTime": "12 min read",
+      "status": "scheduled"
+    },
+    {
+      "slug": "how-custom-songs-help-with-grief",
+      "title": "How Custom Songs Help With Grief — Healing Through Music",
+      "description": "Music has a unique power to help process grief. Learn how custom memorial songs provide comfort, preserve memories, and support the healing journey.",
+      "tags": ["Insights", "Custom Songs"],
+      "publishDate": "2027-03-23",
+      "readTime": "10 min read",
+      "status": "scheduled"
+    },
+    {
+      "slug": "mothers-day-ideas-from-kids",
+      "title": "Mother's Day Ideas From Kids — Gifts Mom Will Actually Treasure",
+      "description": "The best Mother's Day gifts come from the heart — especially little hearts. These ideas help kids (and dads) create something Mom will keep forever.",
+      "tags": ["Occasions", "Gift Ideas"],
+      "publishDate": "2027-03-27",
+      "readTime": "8 min read",
+      "status": "scheduled"
+    },
+    {
+      "slug": "birthday-traditions-around-the-world",
+      "title": "Birthday Traditions Around the World — And How to Make Yours Special",
+      "description": "From Mexico's mordida to Denmark's flag-flying, birthday traditions vary wildly. Get inspired by global customs and create your own meaningful traditions.",
+      "tags": ["Insights", "Occasions"],
+      "publishDate": "2027-03-31",
+      "readTime": "9 min read",
+      "status": "scheduled"
+    },
+    {
+      "slug": "one-year-anniversary-gift-ideas",
+      "title": "One-Year Anniversary Gift Ideas — Celebrating Your First Year Together",
+      "description": "The first anniversary sets the tone for decades of celebrations. These meaningful gift ideas honor your journey from 'I do' to 'we did it.'",
+      "tags": ["Occasions", "Gift Guide"],
+      "publishDate": "2027-04-04",
+      "readTime": "9 min read",
+      "status": "scheduled"
+    },
+    {
+      "slug": "how-to-plan-the-perfect-proposal",
+      "title": "How to Plan the Perfect Proposal — A Step-by-Step Guide",
+      "description": "From choosing the ring to planning the moment, this comprehensive proposal planning guide covers everything — including how to add a custom song.",
+      "tags": ["Tips & Guides", "Occasions"],
+      "publishDate": "2027-04-08",
+      "readTime": "11 min read",
+      "status": "scheduled"
+    },
+    {
+      "slug": "why-custom-songs-make-the-best-anniversary-gift",
+      "title": "Why a Custom Song Is the Best Anniversary Gift — Every Year",
+      "description": "Forget paper, tin, and silver themes. A custom song captures your love story at any stage — making it the perfect anniversary gift for every milestone year.",
+      "tags": ["Custom Songs", "Comparison"],
+      "publishDate": "2027-04-12",
+      "readTime": "9 min read",
+      "status": "scheduled"
+    },
+    {
+      "slug": "summer-celebration-and-gift-ideas",
+      "title": "Summer Celebration & Gift Ideas for 2027",
+      "description": "Summer is packed with occasions — from graduations to weddings to reunions. These seasonal gift ideas capture the warmth and energy of the season.",
+      "tags": ["Occasions", "Gift Ideas"],
+      "publishDate": "2027-04-16",
+      "readTime": "8 min read",
+      "status": "scheduled"
+    },
+    {
+      "slug": "50th-birthday-gift-ideas",
+      "title": "50th Birthday Gift Ideas — Celebrating Half a Century of Life",
+      "description": "Turning 50 is monumental. These birthday gift ideas match the magnitude of the milestone with personalized, meaningful celebrations of a life well-lived.",
+      "tags": ["Occasions", "Gift Ideas"],
+      "publishDate": "2027-04-20",
+      "readTime": "9 min read",
+      "status": "scheduled"
+    },
+    {
+      "slug": "the-future-of-personalized-gifts",
+      "title": "The Future of Personalized Gifts — Trends Shaping 2027 and Beyond",
+      "description": "From custom AI music to personalized AR experiences, the future of gifting is deeply personal. Explore the trends that will define meaningful giving.",
+      "tags": ["Insights", "Personalized Gifts"],
+      "publishDate": "2027-04-24",
+      "readTime": "10 min read",
+      "status": "scheduled"
+    }
+  ]
+}

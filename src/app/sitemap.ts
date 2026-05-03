@@ -1,8 +1,10 @@
 import type { MetadataRoute } from 'next';
+import blogSchedule from '@/data/blog-schedule.json';
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = 'https://www.songgift.app';
   const now = new Date();
+  const today = now.toISOString().split('T')[0];
 
   const pages = [
     // Core
@@ -51,14 +53,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { path: '/apology-song-gift', freq: 'monthly' as const, priority: 0.7 },
     { path: '/thank-you-song-gift', freq: 'monthly' as const, priority: 0.7 },
     { path: '/corporate-song-gift', freq: 'monthly' as const, priority: 0.7 },
-    // Blog
+    // Blog index
     { path: '/blog', freq: 'weekly' as const, priority: 0.8 },
-    { path: '/blog/best-personalized-gift-ideas', freq: 'monthly' as const, priority: 0.8 },
-    { path: '/blog/how-custom-songs-are-made', freq: 'monthly' as const, priority: 0.8 },
-    { path: '/blog/custom-song-vs-traditional-gifts', freq: 'monthly' as const, priority: 0.8 },
-    { path: '/blog/occasions-for-custom-song-gift', freq: 'monthly' as const, priority: 0.8 },
-    { path: '/blog/how-to-write-a-song-brief', freq: 'monthly' as const, priority: 0.8 },
-    { path: '/blog/why-personalized-music-gifts', freq: 'monthly' as const, priority: 0.8 },
     // Utility pages
     { path: '/playlist', freq: 'weekly' as const, priority: 0.8 },
     { path: '/reviews', freq: 'weekly' as const, priority: 0.8 },
@@ -70,10 +66,21 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { path: '/privacy-policy', freq: 'yearly' as const, priority: 0.3 },
   ];
 
-  return pages.map((page) => ({
+  const staticEntries = pages.map((page) => ({
     url: `${baseUrl}${page.path}`,
     lastModified: now,
     changeFrequency: page.freq,
     priority: page.priority,
   }));
+
+  const blogEntries = blogSchedule.articles
+    .filter((a) => a.publishDate <= today)
+    .map((a) => ({
+      url: `${baseUrl}/blog/${a.slug}`,
+      lastModified: new Date(a.publishDate),
+      changeFrequency: 'monthly' as const,
+      priority: 0.7,
+    }));
+
+  return [...staticEntries, ...blogEntries];
 }

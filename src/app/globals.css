@@ -1,4 +1,5 @@
 @import "tailwindcss";
+@plugin "@tailwindcss/typography";
 
 @theme {
   --color-primary: #1E293B;
@@ -30,6 +31,93 @@ body {
   font-family: var(--font-sans);
   color: var(--color-text-dark);
   background: #ffffff;
+}
+
+/* ─── Blog Article Typography ─── */
+.blog-article h2 {
+  font-family: var(--font-serif);
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 1.25;
+  letter-spacing: -0.01em;
+  color: var(--color-text-dark);
+  margin-top: 3rem;
+  margin-bottom: 1.25rem;
+  padding-bottom: 0.85rem;
+  border-bottom: 1px solid #f1f5f9;
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+}
+@media (min-width: 640px) {
+  .blog-article h2 {
+    font-size: 1.85rem;
+  }
+}
+.blog-article h3 {
+  font-family: var(--font-serif);
+  font-weight: 700;
+  font-size: 1.2rem;
+  line-height: 1.35;
+  color: var(--color-text-dark);
+  margin-top: 2.25rem;
+  margin-bottom: 0.75rem;
+}
+@media (min-width: 640px) {
+  .blog-article h3 {
+    font-size: 1.35rem;
+  }
+}
+.blog-article p {
+  color: var(--color-text-muted);
+  font-size: 1rem;
+  line-height: 1.85;
+  margin-bottom: 1.35rem;
+}
+.blog-article a {
+  color: var(--color-accent);
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-decoration-color: color-mix(in srgb, var(--color-accent) 30%, transparent);
+  transition: text-decoration-color 0.2s;
+}
+.blog-article a:hover {
+  text-decoration-color: var(--color-accent);
+}
+.blog-article strong {
+  color: var(--color-text-dark);
+  font-weight: 700;
+}
+.blog-article ul,
+.blog-article ol {
+  margin-top: 1.25rem;
+  margin-bottom: 1.5rem;
+  padding-left: 1.5rem;
+}
+.blog-article li {
+  color: var(--color-text-muted);
+  font-size: 1rem;
+  line-height: 1.85;
+  margin-bottom: 0.5rem;
+}
+.blog-article li::marker {
+  color: var(--color-accent);
+}
+.blog-article blockquote {
+  border-left: 4px solid var(--color-accent);
+  background: linear-gradient(to right, color-mix(in srgb, var(--color-accent) 6%, transparent), transparent);
+  border-radius: 0 0.75rem 0.75rem 0;
+  padding: 1.25rem 1.5rem;
+  margin: 2rem 0;
+  font-style: normal;
+}
+.blog-article blockquote p {
+  color: var(--color-text-dark);
+  font-weight: 500;
+  font-size: 1.05rem;
+  line-height: 1.7;
+  margin-bottom: 0;
 }
 
 /* Audio player styling */
