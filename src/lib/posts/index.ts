@@ -1,64 +1,20 @@
 export type { Post } from './types';
-import { emotional } from './emotional';
-import { emotional2 } from './emotional2';
-import { wife, husband, girlfriend, boyfriend, momPosts, dad } from './relationships';
-import { wedding, birthday, graduation, memorial, proposal, retirement } from './occasions';
-import { valentines, mothersDay, fathersDay, christmas, otherHolidays } from './holidays';
-import { funny, friendship, family, trust } from './family-misc';
-import { moreWife, moreHusband, moreMom, moreBirthday, moreHolidays, moreFunny, moreTrust } from './more-content';
-import { moreProposal, seasonal, moreFamily, loveSong, moreWedding, moreGraduation, moreMemorial } from './extra';
-import { emotional3 } from './emotional3';
-import { finalWife, finalHusband, finalGirlfriend, finalBoyfriend, finalMom, finalDad, finalValentines, finalChristmas, finalFunny, finalTrust } from './final-batch';
+import { stories } from './stories';
+import { hooks } from './hooks';
+import { engagement } from './engagement';
+import { seasonalEmotional } from './seasonal-emotional';
+import { relatable } from './relatable';
+import { deepEmotional } from './deep-emotional';
+import { scenario } from './scenario';
 
 export const allPosts = [
-  ...emotional,
-  ...emotional2,
-  ...wife,
-  ...moreWife,
-  ...husband,
-  ...moreHusband,
-  ...girlfriend,
-  ...boyfriend,
-  ...momPosts,
-  ...moreMom,
-  ...dad,
-  ...wedding,
-  ...moreWedding,
-  ...birthday,
-  ...moreBirthday,
-  ...graduation,
-  ...moreGraduation,
-  ...memorial,
-  ...moreMemorial,
-  ...funny,
-  ...moreFunny,
-  ...friendship,
-  ...valentines,
-  ...mothersDay,
-  ...fathersDay,
-  ...christmas,
-  ...otherHolidays,
-  ...moreHolidays,
-  ...proposal,
-  ...moreProposal,
-  ...family,
-  ...moreFamily,
-  ...retirement,
-  ...trust,
-  ...moreTrust,
-  ...seasonal,
-  ...loveSong,
-  ...emotional3,
-  ...finalWife,
-  ...finalHusband,
-  ...finalGirlfriend,
-  ...finalBoyfriend,
-  ...finalMom,
-  ...finalDad,
-  ...finalValentines,
-  ...finalChristmas,
-  ...finalFunny,
-  ...finalTrust,
+  ...stories,
+  ...hooks,
+  ...engagement,
+  ...seasonalEmotional,
+  ...relatable,
+  ...deepEmotional,
+  ...scenario,
 ];
 
 /**
